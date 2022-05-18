@@ -1,0 +1,19 @@
+/* stylelint-disable selector-class-pattern */
+.card-container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 0 4px var(--color-border-card-container), 0 4px 16px var(--color-border-card-container);
+}
+
+/* Пример html (чтобы было нагляднее видно, где какой стиль предполагался):
+<section class="card-container">
+<div class="card-container__header">
+  <h2 class="card-container__header-title">Название карточки</h2>
+  <a target="_blank" href="#" class="card-container__header-link">Наименование ссылки</a>
+</div>
+<div class="card-container__content">
+</div>
+  </section>
+*/
