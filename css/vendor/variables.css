@@ -7,22 +7,24 @@
   --color-bg-button-white: rgb(255 255 255);
   --color-bg-button-orange: rgb(255 102 0);
   --color-bg-button-gray: rgb(230 231 235);
+  --color-button-hover: rgb(240 96 0);
 
   /* цвета текста */
   --color-text-dark: rgb(33 35 41);
   --color-text-orange: rgb(255 102 0);
-  --color-text-white:  rgb(255 255 255);
-  --color-text-gray:  rgb(147 151 163);
-  --color-text-success:  rgb(0 128 0);
-  --color-text-warning:  rgb(255 0 0);
+  --color-text-white: rgb(255 255 255);
+  --color-text-gray: rgb(147 151 163);
+  --color-text-success: rgb(0 128 0);
+  --color-text-warning: rgb(255 0 0);
 
   /* цвета линий (границ) */
-  --color-border-gray: rgb(#E6E7EB);
+
+  --color-border-gray: rgb(230 231 235);
+  --color-text-border-success: rgba(0 128 0 / 60%);
   --color-border-card-container: rgba(231 232 235 / 60%);
   --color-text-border-success: rgba(5, 5, 5, 0.6);
   --color-text-border-warning: rgba(255 0 0 / 60%);
 
   /* семейство шрифтов */
-  --font: "Golos", "Arial", sans-serif;
+  --font: 'Golos', 'Arial', sans-serif;
 }
-
