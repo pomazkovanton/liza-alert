@@ -21,3 +21,9 @@
 
 @import url('../blocks/card-container/card-container.css');
 @import url('../blocks/card-container/__header/card-container__header.css');
+
+/* text */
+@import url('../blocks/text/text.css');
+@import url('../blocks/text/_type/text_type_error.css');
+@import url('../blocks/text/_type/text_type_success.css');
+@import url('../blocks/text/_type/text_type_accent.css');
