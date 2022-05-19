@@ -1,17 +1,13 @@
-/* stylelint-disable selector-class-pattern */
-
-
 .link {
   display: flex;
-  margin-left: 4px;
+  align-items: center;
+  color: var(--color-text-dark);
+  font-family: var(--font);
+  font-size: 18px;
+  font-style: normal;
+  line-height: 24px;
+  text-decoration: none;
 }
 
-.link__icon {
-  display: none;
-  width: 16px;
-  height: 16px;
-}
 
-.link__icon_is-wisible {
-  display: block;
-}
+
