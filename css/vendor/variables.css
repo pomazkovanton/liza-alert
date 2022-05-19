@@ -2,8 +2,8 @@
   /* цвета фона */
   --color-bg-primary: rgb(255 255 255);
   --color-bg-secondary: rgb(252 252 252);
-  --color-bg-text-success: rgba(0 128 0 / 12%);
-  --color-bg-text-warning: rgba(255 0 0 / 12%);
+  --color-bg-result-success: rgba(0 128 0 / 12%);
+  --color-bg-result-warning: rgba(255 0 0 / 12%);
   --color-bg-button-white: rgb(255 255 255);
   --color-bg-button-orange: rgb(255 102 0);
   --color-bg-button-gray: rgb(230 231 235);
