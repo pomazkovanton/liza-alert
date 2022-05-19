@@ -30,5 +30,3 @@
 
 /* info-element */
 @import url('../blocks/info-element/info-element.css');
-@import url('../blocks/info-element/_type/info-element_type_error.css');
-@import url('../blocks/info-element/_type/info-element_type_success.css');
