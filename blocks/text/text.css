@@ -1,0 +1,9 @@
+.text {
+  font-family: var(--font);
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: var(--color-text-dark);
+  margin: 0;
+  padding: 0;
+}
