@@ -27,3 +27,6 @@
 @import url('../blocks/text/_type/text_type_error.css');
 @import url('../blocks/text/_type/text_type_success.css');
 @import url('../blocks/text/_type/text_type_accent.css');
+
+/* action-panel */
+@import url('../blocks/action-panel/action-panel.css');
