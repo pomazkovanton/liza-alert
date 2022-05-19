@@ -1,0 +1,6 @@
+.page__col-right {
+  max-width: 424px;
+  flex-grow: 1;
+  margin-left: 12px;
+  background-color: black;
+}

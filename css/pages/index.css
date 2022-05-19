@@ -2,6 +2,12 @@
 @import url('../vendor/fonts.css');
 @import url('../vendor/variables.css');
 
+/* Grid */
+@import url('../blocks/page/page.css');
+@import url('../blocks/page/__main/page__main.css');
+@import url('../blocks/page/__col-left/page__col-left.css');
+@import url('../blocks/page/__col-right/page__col-right.css');
+
 /* Button */
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/__icon/button__icon.css');
@@ -35,4 +41,3 @@
 @import url('../blocks/text/_type/text_type_error.css');
 @import url('../blocks/text/_type/text_type_success.css');
 @import url('../blocks/text/_type/text_type_accent.css');
-

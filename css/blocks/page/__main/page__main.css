@@ -1,0 +1,6 @@
+.page__main {
+  display: flex;
+  height: 500px;
+  padding: 0 60px;
+  background-color: pink;
+}
