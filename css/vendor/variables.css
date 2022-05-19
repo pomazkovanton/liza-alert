@@ -18,7 +18,8 @@
 
   /* цвета линий (границ) */
   --color-border-gray: rgb(#E6E7EB);
-  --color-text-border-success: rgba(0 128 0 / 60%);
+  --color-border-card-container: rgba(231 232 235 / 60%);
+  --color-text-border-success: rgba(5, 5, 5, 0.6);
   --color-text-border-warning: rgba(255 0 0 / 60%);
 
   /* семейство шрифтов */
