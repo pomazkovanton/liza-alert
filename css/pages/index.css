@@ -1,3 +1,15 @@
 @import url('../vendor/normalize.css');
 @import url('../vendor/fonts.css');
 @import url('../vendor/variables.css');
+
+@import url('../blocks/video/video.css');
+@import url('../blocks/video/__mediaplayer/video__mediaplayer.css');
+@import url('../blocks/video/__controls/video__controls.css');
+@import url('../blocks/video/__sound-wrap/video__sound-wrap.css');
+@import url('../blocks/video/__btn/video__btn.css');
+@import url('../blocks/video/__btn/_type/video__btn_type_play.css');
+@import url('../blocks/video/__btn/_type/video__btn_type_sound.css');
+@import url('../blocks/video/__btn/_type/video__btn_type_fullscreen.css');
+@import url('../blocks/video/__slider/video__slider.css');
+@import url('../blocks/video/__slider/_type/video__slider_type_timeline.css');
+@import url('../blocks/video/__slider/_type/video__slider_type_sound.css');
