@@ -7,5 +7,38 @@
     <title>Видео</title>
     <link rel="stylesheet" href="../css/pages/index.css" />
   </head>
-  <body class="page"></body>
+  <body class="page">
+    <section class="card-container">
+      <article class="video">
+        <video class="video__mediaplayer" poster="../assets/images/video-poster.jpeg">
+          <source src="https://www.youtube.com/watch?v=V8_wEZD160g" />
+        </video>
+
+        <form class="video__controls">
+          <button type="button" class="video__btn video__btn_type_play">
+            <svg class="button__icon">
+              <use href="../assets/images/icons.svg#video-controls__play" />
+            </svg>
+          </button>
+
+          <input type="range" class="video__slider video__slider_type_timeline" value="0" />
+
+          <div class="video__sound-wrap">
+            <button class="video__btn video__btn_type_sound" type="button">
+              <svg class="button__icon">
+                <use href="../assets/images/icons.svg#video-controls__sound" />
+              </svg>
+            </button>
+            <input type="range" class="video__slider video__slider_type_sound" value="70" />
+          </div>
+
+          <button class="video__btn video__btn_type_fullscreen" type="button">
+            <svg class="button__icon">
+              <use href="../assets/images/icons.svg#video-controls__fullscreen" />
+            </svg>
+          </button>
+        </form>
+      </article>
+    </section>
+  </body>
 </html>
