@@ -1,0 +1,17 @@
+/* stylelint-disable selector-class-pattern */
+
+
+.link {
+  display: flex;
+  margin-left: 4px;
+}
+
+.link__icon {
+  display: none;
+  width: 16px;
+  height: 16px;
+}
+
+.link__icon_is-wisible {
+  display: block;
+}
