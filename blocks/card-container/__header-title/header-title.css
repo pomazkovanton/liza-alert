@@ -1,9 +1,0 @@
-/* stylelint-disable selector-class-pattern */
-.card-container__header-title {
-  margin: 0;
-  color: var(--color-text-dark);
-  font-size: 24px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 28px;
-}

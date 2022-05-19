@@ -1,9 +1,0 @@
-/* stylelint-disable selector-class-pattern */
-.card-container__header-link {
-  color: var(--color-text-dark);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 24px;
-  text-decoration: none;
-}
