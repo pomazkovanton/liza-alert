@@ -1,0 +1,10 @@
+.button_type_primary {
+  background-color: var(--color-bg-button-orange);
+  color: var(--color-text-white);
+  transition: background-color 0.4s linear;
+}
+
+.button_type_primary:hover,
+.button_type_primary:active {
+  background-color: var(--color-button-hover);
+}

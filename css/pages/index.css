@@ -2,6 +2,27 @@
 @import url('../vendor/fonts.css');
 @import url('../vendor/variables.css');
 
+@import url('../blocks/video/video.css');
+@import url('../blocks/video/__mediaplayer/video__mediaplayer.css');
+@import url('../blocks/video/__controls/video__controls.css');
+@import url('../blocks/video/__sound-wrap/video__sound-wrap.css');
+@import url('../blocks/video/__btn/video__btn.css');
+@import url('../blocks/video/__btn/_type/video__btn_type_play.css');
+@import url('../blocks/video/__btn/_type/video__btn_type_sound.css');
+@import url('../blocks/video/__btn/_type/video__btn_type_fullscreen.css');
+@import url('../blocks/video/__slider/video__slider.css');
+@import url('../blocks/video/__slider/_type/video__slider_type_timeline.css');
+@import url('../blocks/video/__slider/_type/video__slider_type_sound.css');
+
+@import url('../blocks/button/button.css');
+@import url('../blocks/button/__icon/button__icon.css');
+@import url('../blocks/button/_width/button_width_s.css');
+@import url('../blocks/button/_width/button_width_m.css');
+@import url('../blocks/button/_width/button_width_l.css');
+@import url('../blocks/button/_type/button_type_primary.css');
+@import url('../blocks/button/_type/button_type_secondary.css');
+@import url('../blocks/button/_state/button_state_disabled.css');
+
 @import url('../../blocks/title/title.css');
 @import url('../../blocks/title/_size/title_size_s.css');
 @import url('../../blocks/title/_size/title_size_m.css');
@@ -25,3 +46,16 @@
 @import url(../../blocks/test/__question/test__question.css);
 @import url(../../blocks/test/__title/test__title.css);
 @import url(../../blocks/test/__line/test__line.css);
+
+@import url('../blocks/accordion/accordion.css');
+@import url('../blocks/accordion/__header/accordion__header.css');
+@import url('../blocks/accordion/__list/accordion__list.css');
+@import url('../blocks/accordion/__item/accordion__item.css');
+
+@import url('../blocks/card-container/card-container.css');
+@import url('../blocks/card-container/__header/card-container__header.css');
+
+@import url('../blocks/text/text.css');
+@import url('../blocks/text/_type/text_type_error.css');
+@import url('../blocks/text/_type/text_type_success.css');
+@import url('../blocks/text/_type/text_type_accent.css');
