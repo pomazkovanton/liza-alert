@@ -64,6 +64,9 @@
 @import url('../blocks/text/_type/text_type_success.css');
 @import url('../blocks/text/_type/text_type_accent.css');
 
+/* action-panel */
+@import url('../blocks/action-panel/action-panel.css');
+
 @import url('../blocks/info-element/info-element.css');
 @import url('../blocks/info-element/_type/info-element_type_success.css');
 @import url('../blocks/info-element/_type/info-elemet_type_error.css');
