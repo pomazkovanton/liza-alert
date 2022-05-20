@@ -1,0 +1,3 @@
+.nav-lessons__item:not(:first-child) {
+  margin-top: 32px;
+}
