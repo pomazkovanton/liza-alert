@@ -1,0 +1,3 @@
+.result__text:not(:last-child) {
+  margin-bottom: 24px;
+}
