@@ -36,3 +36,7 @@
 @import url('../blocks/text/_type/text_type_success.css');
 @import url('../blocks/text/_type/text_type_accent.css');
 
+/* Nav lessons */
+@import url('../blocks/nav-lessons/nav-lessons.css');
+@import url('../blocks/nav-lessons/__list/nav-lessons__list.css');
+@import url('../blocks/nav-lessons/__item/nav-lessons__item.css');
