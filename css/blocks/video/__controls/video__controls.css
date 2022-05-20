@@ -1,0 +1,12 @@
+.video__controls {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  height: auto;
+  padding: 0 32px 32px;
+  grid-gap: 32px;
+  grid-template-columns: 24px 7fr 2fr 24px;
+}
