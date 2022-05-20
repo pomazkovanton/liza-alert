@@ -7,7 +7,7 @@
 }
 
 .radio__input:checked + .radio__custom {
-  background-image: url(../../../assets/images/radio-checked.svg);
+  background-image: url(../../../../assets/images/radio-checked.svg);
 }
 
 .radio__input:checked ~ .radio__label {
@@ -15,17 +15,17 @@
 }
 
 .radio__input:focus + .radio__custom {
-  background-image: url(../../../assets/images/radio-empty-focused.svg);
+  background-image: url(../../../../assets/images/radio-empty-focused.svg);
   border-radius: 50%;
   box-shadow: 0 0 0 0.2rem rgb(240 96 0 / 25%);
 }
 
 .radio__input:checked:focus + .radio__custom {
-  background-image: url(../../../assets/images/radio-checked.svg);
+  background-image: url(../../../../assets/images/radio-checked.svg);
   border-radius: 50%;
   box-shadow: 0 0 0 0.2rem rgb(240 96 0 / 25%);
 }
 
 .radio__input:hover:not(:checked):not(:focus) + .radio__custom {
-  background-image: url(../../../assets/images/radio-empty-hover.svg);
+  background-image: url(../../../../assets/images/radio-empty-hover.svg);
 }

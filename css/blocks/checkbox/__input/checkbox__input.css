@@ -7,7 +7,7 @@
 }
 
 .checkbox__input:checked + .checkbox__custom {
-  background-image: url(../../../assets/images/checked.svg);
+  background-image: url(../../../../assets/images/checked.svg);
 }
 
 .checkbox__input:checked ~ .checkbox__label {
@@ -15,18 +15,18 @@
 }
 
 .checkbox__input:focus + .checkbox__custom {
-  background-image: url(../../../assets/images/empty-focused.svg);
+  background-image: url(../../../../assets/images/empty-focused.svg);
   border-radius: 0.25em;
   box-shadow: 0 0 0 0.2rem rgb(240 96 0 / 25%);
 }
 
 .checkbox__input:checked:focus + .checkbox__custom {
-  background-image: url(../../../assets/images/checked.svg);
+  background-image: url(../../../../assets/images/checked.svg);
   border-radius: 0.25em;
   box-shadow: 0 0 0 0.2rem rgb(240 96 0 / 25%);
 }
 
 .checkbox__input:hover:not(:checked):not(:focus) + .checkbox__custom {
-  background-image: url(../../../assets/images/empty-hover.svg);
+  background-image: url(../../../../assets/images/empty-hover.svg);
 }
 */
