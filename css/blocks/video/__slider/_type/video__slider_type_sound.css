@@ -1,0 +1,8 @@
+.video__slider_type_sound {
+  max-width: 100px;
+
+  /* background-image: rgb(255 102 0); */
+  background-image: linear-gradient(var(--color-text-orange), var(--color-text-orange));
+  background-repeat: no-repeat;
+  background-size: 70% 100%;
+}
