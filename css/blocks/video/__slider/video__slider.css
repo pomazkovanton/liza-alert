@@ -1,0 +1,18 @@
+.video__slider {
+  height: 6px;
+  margin: 9px 0;
+  appearance: none;
+  background-color: var(--color-text-gray);
+  background-repeat: no-repeat;
+  border-radius: 16px;
+}
+
+.video__slider::-webkit-slider-thumb {
+  width: 20px;
+  height: 20px;
+  appearance: none;
+  background: var(--color-text-white);
+  border-radius: 50%;
+  cursor: ew-resize;
+  transition: background 0.3s ease-in-out;
+}

@@ -1,0 +1,5 @@
+.button_state_disabled {
+  background-color: var(--color-bg-button-gray);
+  color: var(--color-text-gray);
+  cursor: default;
+}
