@@ -1,0 +1,11 @@
+.button_type_secondary {
+  border: 1.2px solid var(--color-bg-button-gray);
+  background-color: var(--color-bg-button-white);
+  color: var(--color-text-orange);
+  transition: color 0.4s linear;
+}
+
+.button_type_secondary:hover,
+.button_type_secondary:active {
+  color: var(--color-button-hover);
+}
