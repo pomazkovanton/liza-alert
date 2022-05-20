@@ -1,0 +1,7 @@
+.radio__custom {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  margin-left: -25px;
+  background-image: url(../../../assets/images/radio-empty.svg);
+}
