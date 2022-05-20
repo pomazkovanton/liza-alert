@@ -2,3 +2,7 @@
   color: var(--color-text-orange);
 }
 
+.link_active:hover {
+  opacity: 1;
+}
+
