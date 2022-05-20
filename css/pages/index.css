@@ -2,6 +2,11 @@
 @import url('../vendor/fonts.css');
 @import url('../vendor/variables.css');
 
+/* Header */
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__container/header__container.css');
+@import url('../blocks/header/__nav-list/header__nav-list.css');
+
 /* Button */
 @import url('../blocks/button/button.css');
 @import url('../blocks/button/__icon/button__icon.css');
@@ -35,4 +40,3 @@
 @import url('../blocks/text/_type/text_type_error.css');
 @import url('../blocks/text/_type/text_type_success.css');
 @import url('../blocks/text/_type/text_type_accent.css');
-
