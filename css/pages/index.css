@@ -2,7 +2,6 @@
 @import url('../vendor/fonts.css');
 @import url('../vendor/variables.css');
 
-
 @import url('../blocks/video/video.css');
 @import url('../blocks/video/__mediaplayer/video__mediaplayer.css');
 @import url('../blocks/video/__controls/video__controls.css');
@@ -24,12 +23,12 @@
 @import url('../blocks/button/_type/button_type_secondary.css');
 @import url('../blocks/button/_state/button_state_disabled.css');
 
-@import url('../../blocks/title/title.css');
-@import url('../../blocks/title/_size/title_size_s.css');
-@import url('../../blocks/title/_size/title_size_m.css');
-@import url('../../blocks/title/_size/title_size_l.css');
-@import url('../../blocks/title/_type/title_type_success.css');
-@import url('../../blocks/title/_type/title_type_error.css');
+@import url('../blocks/title/title.css');
+@import url('../blocks/title/_size/title_size_s.css');
+@import url('../blocks/title/_size/title_size_m.css');
+@import url('../blocks/title/_size/title_size_l.css');
+@import url('../blocks/title/_type/title_type_success.css');
+@import url('../blocks/title/_type/title_type_error.css');
 
 @import url('../blocks/accordion/accordion.css');
 @import url('../blocks/accordion/__header/accordion__header.css');
@@ -48,3 +47,8 @@
 @import url('../blocks/info-element/_type/info-element_type_success.css');
 @import url('../blocks/info-element/_type/info-elemet_type_error.css');
 @import url('../blocks/info-element/__icon/info-element__icon.css');
+
+@import url('../blocks/about-test/__info/about-test__info.css');
+@import url('../blocks/about-test/about-test.css');
+@import url('../blocks/about-test/__line/about-test__line.css');
+@import url('../blocks/about-test/__content/about-test__content.css');
