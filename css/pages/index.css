@@ -7,15 +7,11 @@
 @import url('../blocks/header/__container/header__container.css');
 @import url('../blocks/header/__nav-list/header__nav-list.css');
 
-/* Button */
-@import url('../blocks/button/button.css');
-@import url('../blocks/button/__icon/button__icon.css');
-@import url('../blocks/button/_width/button_width_s.css');
-@import url('../blocks/button/_width/button_width_m.css');
-@import url('../blocks/button/_width/button_width_l.css');
-@import url('../blocks/button/_type/button_type_primary.css');
-@import url('../blocks/button/_type/button_type_secondary.css');
-@import url('../blocks/button/_state/button_state_disabled.css');
+/* Grid */
+@import url('../blocks/page/page.css');
+@import url('../blocks/page/__main/page__main.css');
+@import url('../blocks/page/__col-left/page__col-left.css');
+@import url('../blocks/page/__col-right/page__col-right.css');
 
 /* Title */
 @import url('../blocks/title/title.css');
@@ -25,18 +21,82 @@
 @import url('../blocks/title/_type/title_type_success.css');
 @import url('../blocks/title/_type/title_type_error.css');
 
+/* Text */
+@import url('../blocks/text/text.css');
+@import url('../blocks/text/_type/text_type_error.css');
+@import url('../blocks/text/_type/text_type_success.css');
+@import url('../blocks/text/_type/text_type_accent.css');
+
+/* Video */
+@import url('../blocks/video/video.css');
+@import url('../blocks/video/__mediaplayer/video__mediaplayer.css');
+@import url('../blocks/video/__controls/video__controls.css');
+@import url('../blocks/video/__sound-wrap/video__sound-wrap.css');
+@import url('../blocks/video/__btn/video__btn.css');
+@import url('../blocks/video/__btn/_type/video__btn_type_play.css');
+@import url('../blocks/video/__btn/_type/video__btn_type_sound.css');
+@import url('../blocks/video/__btn/_type/video__btn_type_fullscreen.css');
+@import url('../blocks/video/__slider/video__slider.css');
+@import url('../blocks/video/__slider/_type/video__slider_type_timeline.css');
+@import url('../blocks/video/__slider/_type/video__slider_type_sound.css');
+
+/* Button */
+@import url('../blocks/button/button.css');
+@import url('../blocks/button/__icon/button__icon.css');
+@import url('../blocks/button/_width/button_width_s.css');
+@import url('../blocks/button/_width/button_width_m.css');
+@import url('../blocks/button/_width/button_width_l.css');
+@import url('../blocks/button/_type/button_type_primary.css');
+@import url('../blocks/button/_type/button_type_secondary.css');
+@import url('../blocks/button/_state/button_state_disabled.css');
+@import url('../blocks/button/__center/button__center.css');
+
+/* Checkbox */
+@import url(../blocks/checkbox/checkbox.css);
+@import url(../blocks/checkbox/__custom/checkbox__custom.css);
+@import url(../blocks/checkbox/__input/checkbox__input.css);
+
+/* Radio */
+@import url(../blocks/radio/radio.css);
+@import url(../blocks/radio/__custom/radio__custom.css);
+@import url(../blocks/radio/__input/radio__input.css);
+
+/* Card container */
+@import url('../blocks/card-container/card-container.css');
+@import url('../blocks/card-container/__header/card-container__header.css');
+
+/* Test */
+@import url(../blocks/test/__answers/test__answers.css);
+@import url(../blocks/test/__block/test__block.css);
+@import url(../blocks/test/__link/test__link.css);
+@import url(../blocks/test/__question/test__question.css);
+@import url(../blocks/test/__line/test__line.css);
+
+/* Result */
+@import url('../blocks/result/result.css');
+@import url('../blocks/result/__title/result__title.css');
+@import url('../blocks/result/__text/result__text.css');
+@import url('../blocks/result/_type/result_type_error.css');
+@import url('../blocks/result/_type/result_type_success.css');
+
 /* Accordion */
 @import url('../blocks/accordion/accordion.css');
 @import url('../blocks/accordion/__header/accordion__header.css');
 @import url('../blocks/accordion/__list/accordion__list.css');
 @import url('../blocks/accordion/__item/accordion__item.css');
 
-/* Card Container */
-@import url('../blocks/card-container/card-container.css');
-@import url('../blocks/card-container/__header/card-container__header.css');
+/* Link */
+@import url('../blocks/link/link.css');
+@import url('../blocks/link/_text/link_text_medium.css');
+@import url('../blocks/link/_active/link_active.css');
+@import url('../blocks/link/__icon/link__icon.css');
+@import url('../blocks/link/__icon/_color/link__icon_color_success.css');
 
-/* Text */
-@import url('../blocks/text/text.css');
-@import url('../blocks/text/_type/text_type_error.css');
-@import url('../blocks/text/_type/text_type_success.css');
-@import url('../blocks/text/_type/text_type_accent.css');
+/* Action panel */
+@import url('../blocks/action-panel/action-panel.css');
+
+/* Info element */
+@import url('../blocks/info-element/info-element.css');
+@import url('../blocks/info-element/_type/info-element_type_success.css');
+@import url('../blocks/info-element/_type/info-elemet_type_error.css');
+@import url('../blocks/info-element/__icon/info-element__icon.css');

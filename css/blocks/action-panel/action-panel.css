@@ -1,0 +1,10 @@
+.action-panel {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0;
+  padding-right: 32px;
+  margin: 0;
+  gap: 24px;
+  list-style: none;
+}

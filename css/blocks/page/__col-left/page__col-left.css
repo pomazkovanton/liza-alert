@@ -1,0 +1,10 @@
+.page__col-left {
+  margin-bottom: 24px;
+}
+
+@media screen and (min-width: 1224px) {
+  .page__col-left {
+    flex-grow: 2;
+    margin-right: 12px;
+  }
+}
