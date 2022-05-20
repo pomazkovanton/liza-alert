@@ -14,9 +14,7 @@
 
 @import url('../blocks/link/link.css');
 @import url('../blocks/link/_text/link_text_medium.css');
-@import url('../blocks/link/_text/link_text_regular.css');
 @import url('../blocks/link/_active/link_active.css');
 @import url('../blocks/link/__icon/link__icon.css');
-@import url('../blocks/link/__icon/_left/link__icon_left.css');
-@import url('../blocks/link/__icon/_color/link__icon_color_green.css');
+@import url('../blocks/link/__icon/_color/link__icon_color_success.css');
 
