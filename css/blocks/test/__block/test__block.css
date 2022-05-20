@@ -1,0 +1,10 @@
+.test__block {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 32px;
+  row-gap: 16px;
+}
+
+.test__block:not(:first-child) {
+  margin-top: 32px;
+}

@@ -1,0 +1,10 @@
+.page__col-right {
+}
+
+@media screen and (min-width: 1224px) {
+  .page__col-right {
+    max-width: 424px;
+    flex-grow: 1;
+    margin-left: 12px;
+  }
+}

@@ -8,291 +8,368 @@
     <link rel="stylesheet" href="../css/pages/index.css" />
   </head>
   <body class="page">
-    <nav class="nav-lessons card-container">
-      <div class="card-container__header">
-        <h2 class="nav-lessons__title title title_size_m">Содержание</h2>
+    <header class="header">
+      <div class="header__container">
+        <h1 class="title title_size_s">Учебная платформа</h1>
+        <nav>
+          <ul class="header__nav-list">
+            <li>
+              <a class="link" href="#">
+                <svg class="link__icon">
+                  <use href="../assets/images/icons.svg#courses">
+                </svg>
+                Курсы
+              </a>
+            </li>
+            <li>
+              <a class="link" href="#">
+                <svg class="link__icon">
+                  <use href="../assets/images/icons.svg#profile">
+                </svg>
+                Профиль
+              </a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <ol class="nav-lessons__list">
-        <li class="nav-lessons__item">
-          <details class="accordion">
-            <summary class="accordion__header">
-              <p class="text ">1. В каких случаях перспективно применение следовых кинологических расчётов</p>
-            </summary>
-            <ul class="accordion__list">
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Урок
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Видео
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Урок
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Вебинар
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Тест
-                </a>
-              </li>
-            </ul>
-          </details>
+    </header>
+    <main>
+      <section class="card-container">
+        <article class="video">
+          <video class="video__mediaplayer" poster="../assets/images/video-poster.jpeg">
+            <source src="https://www.youtube.com/watch?v=V8_wEZD160g" />
+          </video>
+
+          <form class="video__controls">
+            <button type="button" class="video__btn video__btn_type_play">
+              <svg class="button__icon">
+                <use href="../assets/images/icons.svg#video-controls__play" />
+              </svg>
+            </button>
+
+            <input type="range" class="video__slider video__slider_type_timeline" value="0" />
+
+            <div class="video__sound-wrap">
+              <button class="video__btn video__btn_type_sound" type="button">
+                <svg class="button__icon">
+                  <use href="../assets/images/icons.svg#video-controls__sound" />
+                </svg>
+              </button>
+              <input type="range" class="video__slider video__slider_type_sound" value="70" />
+            </div>
+
+            <button class="video__btn video__btn_type_fullscreen" type="button">
+              <svg class="button__icon">
+                <use href="../assets/images/icons.svg#video-controls__fullscreen" />
+              </svg>
+            </button>
+          </form>
+        </article>
+      </section>
+      <ul class="action-panel">
+        <li>
+          <a class="button button_width_m button_type_secondary" href="#">
+            <svg class="button__icon">
+              <use href="../assets/images/icons.svg#arrow-back">
+            </svg>
+            Назад
+          </a>
         </li>
-        <li class="nav-lessons__item">
-          <details class="accordion">
-            <summary class="accordion__header">
-              <p class="text">2. Необходимые обеспечительные меры для успешного применения следовых (розыскных собак)</p>
-            </summary>
-            <ul class="accordion__list">
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Урок
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Вебинар
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Урок
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Видео
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Тест
-                </a>
-              </li>
-            </ul>
-          </details>
+        <li>
+          <a class="button button_width_m button_type_primary" href="./lesson-test-preview.html">
+            Далее
+            <svg class="button__icon">
+              <use href="../assets/images/icons.svg#arrow-forward">
+            </svg>
+          </a>
         </li>
-        <li class="nav-lessons__item">
-          <details class="accordion">
-            <summary class="accordion__header">
-              <p class="text">3. Особенности привлечения следовых расчётов на ПСР и особенности взаимодействия</p>
-            </summary>
-            <ul class="accordion__list">
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Урок
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Вебинар
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Урок
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Видео
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Тест
-                </a>
-              </li>
-            </ul>
-          </details>
-        </li>
-        <li class="nav-lessons__item">
-          <details class="accordion">
-            <summary class="accordion__header">
-              <p class="text">4. Корректная постановка задачи кинологу и особенности её исполнения</p>
-            </summary>
-            <ul class="accordion__list">
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Вебинар
-                </a>
-              </li>
-            </ul>
-          </details>
-        </li>
-        <li class="nav-lessons__item">
-          <details class="accordion">
-            <summary class="accordion__header">
-              <p class="text">5. Работа «второго номера» совместно со следовым кинологическим расчётом</p>
-            </summary>
-            <ul class="accordion__list">
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Дрессировка поисково-спасательных собак
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Вебинар
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon  link__icon_color_success">
-                    <use href="../assets/images/icons.svg#completed">
-                  </svg>
-                  Урок
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link link_active" href="./lesson-video.html">
-                  <svg class="link__icon">
-                    <use href="../assets/images/icons.svg#video">
-                  </svg>
-                  Видео
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link" href="./lesson-test-preview.html">
-                  <svg class="link__icon">
-                    <use href="../assets/images/icons.svg#test">
-                  </svg>
-                  Тест
-                </a>
-              </li>
-            </ul>
-          </details>
-        </li>
-        <li class="nav-lessons__item">
-          <details class="accordion">
-            <summary class="accordion__header">
-              <p class="text">6. Оценка качества и особенности анализа результата проделанной следовым кинологическим расчётом работы</p>
-            </summary>
-            <ul class="accordion__list">
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon">
-                    <use href="../assets/images/icons.svg#document">
-                  </svg>
-                  Урок
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon">
-                    <use href="../assets/images/icons.svg#laptop">
-                  </svg>
-                  Вебинар
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon">
-                    <use href="../assets/images/icons.svg#video">
-                  </svg>
-                  Видео
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon">
-                    <use href="../assets/images/icons.svg#test">
-                  </svg>
-                  Тест
-                </a>
-              </li>
-            </ul>
-          </details>
-        </li>
-        <li class="nav-lessons__item">
-          <details class="accordion">
-            <summary class="accordion__header">
-              <p class="text">7. Особенности и пределы использования РПРС ом полученной в ходе применения специальной следовой собаки информации в целях успешного разрешения поисков</p>
-            </summary>
-            <ul class="accordion__list">
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon">
-                    <use href="../assets/images/icons.svg#laptop">
-                  </svg>
-                  Вебинар
-                </a>
-              </li>
-              <li class="accordion__item">
-                <a class="link">
-                  <svg class="link__icon">
-                    <use href="../assets/images/icons.svg#test">
-                  </svg>
-                  Тест
-                </a>
-              </li>
-            </ul>
-          </details>
-        </li>
-      </ol>
-    </nav>
+      </ul>
+       <nav class="nav-lessons card-container">
+        <div class="card-container__header">
+          <h2 class="nav-lessons__title title title_size_m">Содержание</h2>
+        </div>
+        <ol class="nav-lessons__list">
+          <li class="nav-lessons__item">
+            <details class="accordion">
+              <summary class="accordion__header">
+                <p class="text ">1. В каких случаях перспективно применение следовых кинологических расчётов</p>
+              </summary>
+              <ul class="accordion__list">
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Урок
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Видео
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Урок
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Вебинар
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Тест
+                  </a>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li class="nav-lessons__item">
+            <details class="accordion">
+              <summary class="accordion__header">
+                <p class="text">2. Необходимые обеспечительные меры для успешного применения следовых (розыскных собак)</p>
+              </summary>
+              <ul class="accordion__list">
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Урок
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Вебинар
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Урок
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Видео
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Тест
+                  </a>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li class="nav-lessons__item">
+            <details class="accordion">
+              <summary class="accordion__header">
+                <p class="text">3. Особенности привлечения следовых расчётов на ПСР и особенности взаимодействия</p>
+              </summary>
+              <ul class="accordion__list">
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Урок
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Вебинар
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Урок
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Видео
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Тест
+                  </a>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li class="nav-lessons__item">
+            <details class="accordion">
+              <summary class="accordion__header">
+                <p class="text">4. Корректная постановка задачи кинологу и особенности её исполнения</p>
+              </summary>
+              <ul class="accordion__list">
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Вебинар
+                  </a>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li class="nav-lessons__item">
+            <details class="accordion">
+              <summary class="accordion__header">
+                <p class="text">5. Работа «второго номера» совместно со следовым кинологическим расчётом</p>
+              </summary>
+              <ul class="accordion__list">
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Дрессировка поисково-спасательных собак
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Вебинар
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon  link__icon_color_success">
+                      <use href="../assets/images/icons.svg#completed">
+                    </svg>
+                    Урок
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link link_active" href="./lesson-video.html">
+                    <svg class="link__icon">
+                      <use href="../assets/images/icons.svg#video">
+                    </svg>
+                    Видео
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link" href="./lesson-test-preview.html">
+                    <svg class="link__icon">
+                      <use href="../assets/images/icons.svg#test">
+                    </svg>
+                    Тест
+                  </a>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li class="nav-lessons__item">
+            <details class="accordion">
+              <summary class="accordion__header">
+                <p class="text">6. Оценка качества и особенности анализа результата проделанной следовым кинологическим расчётом работы</p>
+              </summary>
+              <ul class="accordion__list">
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon">
+                      <use href="../assets/images/icons.svg#document">
+                    </svg>
+                    Урок
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon">
+                      <use href="../assets/images/icons.svg#laptop">
+                    </svg>
+                    Вебинар
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon">
+                      <use href="../assets/images/icons.svg#video">
+                    </svg>
+                    Видео
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon">
+                      <use href="../assets/images/icons.svg#test">
+                    </svg>
+                    Тест
+                  </a>
+                </li>
+              </ul>
+            </details>
+          </li>
+          <li class="nav-lessons__item">
+            <details class="accordion">
+              <summary class="accordion__header">
+                <p class="text">7. Особенности и пределы использования РПРС ом полученной в ходе применения специальной следовой собаки информации в целях успешного разрешения поисков</p>
+              </summary>
+              <ul class="accordion__list">
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon">
+                      <use href="../assets/images/icons.svg#laptop">
+                    </svg>
+                    Вебинар
+                  </a>
+                </li>
+                <li class="accordion__item">
+                  <a class="link">
+                    <svg class="link__icon">
+                      <use href="../assets/images/icons.svg#test">
+                    </svg>
+                    Тест
+                  </a>
+                </li>
+              </ul>
+            </details>
+          </li>
+        </ol>
+      </nav>
+    </main>
   </body>
 </html>

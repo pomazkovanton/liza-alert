@@ -1,0 +1,7 @@
+.header {
+  position: sticky;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 24px 60px;
+  box-shadow: 0 0 4px var(--color-border-card-container), 0 4px 16px var(--color-border-card-container);
+}
