@@ -3,3 +3,7 @@
   font-weight: 500;
   text-decoration: none;
 }
+
+.test__link:hover {
+  text-decoration: underline;
+}
