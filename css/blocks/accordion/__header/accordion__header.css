@@ -1,0 +1,39 @@
+.accordion__header {
+  position: relative;
+  display: block;
+  padding-top: 32px;
+  padding-right: 32px;
+  cursor: pointer;
+}
+
+.accordion__header::-webkit-details-marker {
+  display: none;
+}
+
+.accordion__header::-moz-list-bullet {
+  list-style-type: none;
+}
+
+.accordion__header::marker {
+  display: none;
+}
+
+.accordion__header::before {
+  position: absolute;
+  top: 32px;
+  right: 0;
+  width: 24px;
+  height: 24px;
+  background: url('../../../../assets/images/accordion-arrow.svg') no-repeat 50% 50% / 1em 1em;
+  color: transparent;
+  content: '';
+  transition: transform 0.5s;
+}
+
+.accordion[open] > .accordion__header::before {
+  transform: rotate(180deg);
+}
+
+.accordion[open] .accordion__header::before ~ * {
+  animation: sweep 0.5s ease-in-out;
+}
