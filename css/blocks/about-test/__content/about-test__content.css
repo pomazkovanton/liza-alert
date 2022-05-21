@@ -1,0 +1,7 @@
+.about-test__content {
+  max-width: 808px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  align-items: center;
+}
