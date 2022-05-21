@@ -62,9 +62,15 @@
 @import url(../blocks/radio/__custom/radio__custom.css);
 @import url(../blocks/radio/__input/radio__input.css);
 
-/* Card container */
 @import url('../blocks/card-container/card-container.css');
 @import url('../blocks/card-container/__header/card-container__header.css');
+
+@import url('../blocks/title/title.css');
+@import url('../blocks/title/_size/title_size_s.css');
+@import url('../blocks/title/_size/title_size_m.css');
+@import url('../blocks/title/_size/title_size_l.css');
+@import url('../blocks/title/_type/title_type_success.css');
+@import url('../blocks/title/_type/title_type_error.css');
 
 /* Test */
 @import url(../blocks/test/__answers/test__answers.css);
@@ -112,3 +118,9 @@
 @import url('../blocks/breadcrumb/__item/breadcrumb__item.css');
 @import url('../blocks/breadcrumb/__icon/breadcrumb__icon.css');
 @import url('../blocks/breadcrumb/__current-location/breadcrumb__current-location.css');
+
+/* About-test */
+@import url('../blocks/about-test/about-test.css');
+@import url('../blocks/about-test/__info/about-test__info.css');
+@import url('../blocks/about-test/__button/about-test__button.css');
+@import url('../blocks/about-test/__line/about-test__line.css');
