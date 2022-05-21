@@ -53,24 +53,24 @@
 @import url('../blocks/button/__center/button__center.css');
 
 /* Checkbox */
-@import url(../blocks/checkbox/checkbox.css);
-@import url(../blocks/checkbox/__custom/checkbox__custom.css);
-@import url(../blocks/checkbox/__input/checkbox__input.css);
+@import url('../blocks/checkbox/checkbox.css');
+@import url('../blocks/checkbox/__custom/checkbox__custom.css');
+@import url('../blocks/checkbox/__input/checkbox__input.css');
 
 /* Radio */
-@import url(../blocks/radio/radio.css);
-@import url(../blocks/radio/__custom/radio__custom.css);
-@import url(../blocks/radio/__input/radio__input.css);
+@import url('../blocks/radio/radio.css');
+@import url('../blocks/radio/__custom/radio__custom.css');
+@import url('../blocks/radio/__input/radio__input.css');
 
 /* Card container */
 @import url('../blocks/card-container/card-container.css');
 @import url('../blocks/card-container/__header/card-container__header.css');
 
 /* Test */
-@import url(../blocks/test/__answers/test__answers.css);
-@import url(../blocks/test/__block/test__block.css);
-@import url(../blocks/test/__question/test__question.css);
-@import url(../blocks/test/__line/test__line.css);
+@import url('../blocks/test/__answers/test__answers.css');
+@import url('../blocks/test/__block/test__block.css');
+@import url('../blocks/test/__question/test__question.css');
+@import url('../blocks/test/__line/test__line.css');
 
 /* Result */
 @import url('../blocks/result/result.css');

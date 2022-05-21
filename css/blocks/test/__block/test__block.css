@@ -3,6 +3,8 @@
   flex-direction: column;
   margin-bottom: 32px;
   row-gap: 16px;
+  border: 0;
+  padding: 0;
 }
 
 .test__block:not(:first-child) {
