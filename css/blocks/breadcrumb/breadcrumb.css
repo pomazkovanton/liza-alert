@@ -1,0 +1,8 @@
+.breadcrumb {
+  display: flex;
+  max-width: 1320px;
+  padding: 24px 0 32px;
+  margin: 0;
+  margin: auto;
+  list-style: none;
+}
