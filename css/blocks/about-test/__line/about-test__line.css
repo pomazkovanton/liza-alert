@@ -1,5 +1,5 @@
 .about-test__line {
   display: flex;
-  justify-content: space-between;
   align-self: stretch;
+  justify-content: space-between;
 }

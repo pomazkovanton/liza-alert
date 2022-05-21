@@ -120,6 +120,7 @@
 @import url('../blocks/breadcrumb/__current-location/breadcrumb__current-location.css');
 
 /* About-test */
-@import url('../blocks/about-test/__info/about-test__info.css');
 @import url('../blocks/about-test/about-test.css');
+@import url('../blocks/about-test/__info/about-test__info.css');
+@import url('../blocks/about-test/__button/about-test__button.css');
 @import url('../blocks/about-test/__line/about-test__line.css');
