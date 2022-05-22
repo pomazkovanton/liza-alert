@@ -10,10 +10,14 @@
   <body class="page">
     <header class="header">
       <div class="header__container">
-        <h1 class="title title_size_s">Учебная платформа</h1>
-        <nav>
+        <h1 class="title title_size_s header__title">Учебная платформа</h1>
+        <button class="header__nav-btn" type="button">
+          <span class="header__nav-ico-menu header__nav-ico-menu_show"></span>
+          <span class="header__nav-ico-cross"></span>
+        </button>
+        <nav class="header__nav">
           <ul class="header__nav-list">
-            <li>
+            <li class="header__nav-item">
               <a class="link" href="#">
                 <svg class="link__icon">
                   <use href="../assets/images/icons.svg#courses">
@@ -21,7 +25,7 @@
                 Курсы
               </a>
             </li>
-            <li>
+            <li class="header__nav-item">
               <a class="link" href="#">
                 <svg class="link__icon">
                   <use href="../assets/images/icons.svg#profile">
