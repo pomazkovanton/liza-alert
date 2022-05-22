@@ -8,7 +8,6 @@
 
 .checkbox__input:checked + .checkbox__custom {
   background-image: url(../../../../assets/images/checked.svg);
-  cursor: pointer;
 }
 
 .checkbox__input:checked ~ .checkbox__label {
