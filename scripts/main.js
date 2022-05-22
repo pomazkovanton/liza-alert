@@ -1,15 +1,19 @@
 const video = document.querySelector('.video__mediaplayer');
+const menu = document.querySelector('.header__nav');
 
 //Кнопки
 const playBtn = document.querySelector('.video__btn_type_play');
 const muteBtn = document.querySelector('.video__btn_type_sound');
 const fullscreenBtn = document.querySelector('.video__btn_type_fullscreen');
+const buttonMenu = document.querySelector('.header__nav-btn');
 
 //Иконки
 const iconPlay = document.querySelector('.video__icon_type_play');
 const iconPause = document.querySelector('.video__icon_type_pause');
 const iconVolume = document.querySelector('.video__icon_type_sound');
 const iconMute = document.querySelector('.video__icon_type_sound-off');
+const iconOpenMenu = buttonMenu.querySelector('.header__nav-ico-menu');
+const iconCloseMenu = buttonMenu.querySelector('.header__nav-ico-cross');
 
 //Прогресс бары
 const progressBar = document.querySelector('.video__slider_type_timeline');
@@ -82,6 +86,13 @@ const toggleFullscreen = () => {
   }
 };
 
+// Открытие / Закрытие меню
+const openMenu = () => {
+  iconOpenMenu.classList.toggle('header__nav-ico-menu_show');
+  iconCloseMenu.classList.toggle('header__nav-ico-cross_show');
+  menu.classList.toggle('header__nav_opened');
+};
+
 setVolume();
 updateProgress();
 
@@ -92,3 +103,4 @@ progressBar.addEventListener('change', setProgress);
 volumeBar.addEventListener('input', setVolume);
 muteBtn.addEventListener('click', muteVolume);
 fullscreenBtn.addEventListener('click', toggleFullscreen);
+buttonMenu.addEventListener('click', openMenu);
