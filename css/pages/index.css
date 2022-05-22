@@ -40,6 +40,8 @@
 @import url('../blocks/video/__slider/video__slider.css');
 @import url('../blocks/video/__slider/_type/video__slider_type_timeline.css');
 @import url('../blocks/video/__slider/_type/video__slider_type_sound.css');
+@import url('../blocks/video/__icon/video__icon.css');
+@import url('../blocks/video/__icon/_show/video__icon_show.css');
 
 /* Button */
 @import url('../blocks/button/button.css');
