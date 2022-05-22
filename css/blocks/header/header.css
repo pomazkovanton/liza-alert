@@ -5,3 +5,15 @@
   padding: 24px 60px;
   box-shadow: 0 0 4px var(--color-border-card-container), 0 4px 16px var(--color-border-card-container);
 }
+
+@media screen and (min-width: 319px) {
+  .header {
+    padding: 6px 16px;
+  }
+}
+
+@media screen and (min-width: 1199px) {
+  .header {
+    padding: 24px 60px;
+  }
+}

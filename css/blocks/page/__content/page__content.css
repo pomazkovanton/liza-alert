@@ -1,17 +1,14 @@
-.page__content {
+@media screen and (min-width: 320px) {
+  .page__content {
+    padding: 0 16px;
+  }
 }
 
-@media screen and (min-width: 1224px) {
+@media screen and (min-width: 1199px) {
   .page__content {
     display: flex;
     padding: 0 60px;
   }
 }
 
-@media screen and (min-width: 1440px) {
-  .page__content {
-    max-width: 1320px;
-    padding: 0;
-    margin: 0 auto;
-  }
-}
+
