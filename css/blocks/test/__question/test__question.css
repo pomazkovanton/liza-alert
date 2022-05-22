@@ -1,4 +1,7 @@
 .test__question {
-  margin: 0;
   font-weight: 700;
+}
+
+.test__question:last-child {
+  margin-top: 32px;
 }

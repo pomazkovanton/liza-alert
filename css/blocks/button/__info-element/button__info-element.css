@@ -1,0 +1,8 @@
+.button__info-element {
+  display: flex;
+  flex-direction: row;
+  column-gap: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 24px;
+}

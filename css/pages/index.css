@@ -50,7 +50,7 @@
 @import url('../blocks/button/_type/button_type_primary.css');
 @import url('../blocks/button/_type/button_type_secondary.css');
 @import url('../blocks/button/_state/button_state_disabled.css');
-@import url('../blocks/button/__center/button__center.css');
+@import url(../blocks/button/__info-element/button__info-element.css);
 
 /* Checkbox */
 @import url(../blocks/checkbox/checkbox.css);
@@ -77,7 +77,9 @@
 @import url(../blocks/test/__block/test__block.css);
 @import url(../blocks/test/__link/test__link.css);
 @import url(../blocks/test/__question/test__question.css);
+@import url(../blocks/test/__question-block/test__question-block.css);
 @import url(../blocks/test/__line/test__line.css);
+@import url(../blocks/test/__list/test__list.css);
 
 /* Result */
 @import url('../blocks/result/result.css');
@@ -124,3 +126,5 @@
 @import url('../blocks/about-test/__info/about-test__info.css');
 @import url('../blocks/about-test/__button/about-test__button.css');
 @import url('../blocks/about-test/__line/about-test__line.css');
+
+@import url(../blocks/test-info/__button/test-info__button.css);
