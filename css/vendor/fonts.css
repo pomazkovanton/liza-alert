@@ -2,19 +2,19 @@
   font-family: Golos;
   font-style: normal;
   font-weight: normal;
-  src: url('../../accets/fonts/Golos-Text_Bold.woff2') format('woff2'), url('../../accets/fonts/Golos-Text_Regular.woff') format('woff');
+  src: url('../../assets/fonts/Golos-Text_Bold.woff2') format('woff2'), url('../../assets/fonts/Golos-Text_Regular.woff') format('woff');
 }
 
 @font-face {
   font-family: Golos;
   font-style: normal;
   font-weight: 500;
-  src: url('../../accets/fonts/Golos-Text_Medium.woff2') format('woff2'), url('../../accets/fonts/Golos-Text_Medium.woff') format('woff');
+  src: url('../../assets/fonts/Golos-Text_Medium.woff2') format('woff2'), url('../../assets/fonts/Golos-Text_Medium.woff') format('woff');
 }
 
 @font-face {
   font-family: Golos;
   font-style: normal;
   font-weight: bold;
-  src: url('Golos-Text_Bold.woff2') format('woff2'), url('Golos-Text_Bold.woff') format('woff');
+  src: url('../../assets/fonts/Golos-Text_Bold.woff2') format('woff2'), url('../../assets/fonts/Golos-Text_Bold.woff') format('woff');
 }
