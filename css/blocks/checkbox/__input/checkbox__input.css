@@ -29,4 +29,3 @@
 .checkbox__input:hover:not(:checked):not(:focus) + .checkbox__custom {
   background-image: url(../../../../assets/images/empty-hover.svg);
 }
-*/

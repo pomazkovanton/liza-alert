@@ -1,4 +1,5 @@
 .header__nav-btn {
+  z-index: 1;
   display: none;
   width: 36px;
   height: 20px;
