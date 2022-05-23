@@ -37,3 +37,14 @@
 .accordion[open] .accordion__header::before ~ * {
   animation: sweep 0.5s ease-in-out;
 }
+
+@media screen and (max-width: 768px) {
+  .accordion__header {
+    padding-top: 16px;
+    padding-right: 16px;
+  }
+
+  .accordion__header::before {
+    top: 16px;
+  }
+}
