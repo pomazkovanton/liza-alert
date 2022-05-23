@@ -1,3 +1,10 @@
 .breadcrumb__item {
   display: flex;
+  max-width: 70vw;
+}
+
+@media screen and (min-width: 1199px) {
+  .breadcrumb__item {
+    max-width: 100%;
+  }
 }
