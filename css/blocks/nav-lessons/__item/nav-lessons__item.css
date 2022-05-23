@@ -1,3 +1,9 @@
 .nav-lessons__item:not(:first-child) {
   margin-top: 32px;
 }
+
+@media screen and (max-width: 768px) {
+  .nav-lessons__item:not(:first-child) {
+    margin-top: 16px;
+  }
+}
