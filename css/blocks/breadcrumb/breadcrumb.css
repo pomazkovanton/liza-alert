@@ -1,14 +1,14 @@
 .breadcrumb {
   display: flex;
   flex-wrap: wrap;
-  padding: 24px 0 32px;
+  padding: 12px 0 24px;
   margin: 0 auto;
   list-style: none;
 }
 
-@media screen and (min-width: 1224px) {
+@media screen and (min-width: 1024px) {
   .breadcrumb {
-    padding: 24px 60px;
+    padding: 24px 0 32px;
   }
 }
 
