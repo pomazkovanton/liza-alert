@@ -72,13 +72,13 @@
 @import url('../blocks/title/_type/title_type_error.css');
 
 /* Test */
-@import url(../blocks/test/__answers/test__answers.css);
-@import url(../blocks/test/__block/test__block.css);
-@import url(../blocks/test/__link/test__link.css);
-@import url(../blocks/test/__question/test__question.css);
-@import url(../blocks/test/__question-block/test__question-block.css);
-@import url(../blocks/test/__line/test__line.css);
-@import url(../blocks/test/__list/test__list.css);
+@import url('../blocks/test/__answers/test__answers.css');
+@import url('../blocks/test/__block/test__block.css');
+@import url('../blocks/test/__link/test__link.css');
+@import url('../blocks/test/__question/test__question.css');
+@import url('../blocks/test/__question-block/test__question-block.css');
+@import url('../blocks/test/__line/test__line.css');
+@import url('../blocks/test/__list/test__list.css');
 
 /* Result */
 @import url('../blocks/result/result.css');
@@ -126,4 +126,9 @@
 @import url('../blocks/about-test/__button/about-test__button.css');
 @import url('../blocks/about-test/__line/about-test__line.css');
 
-@import url(../blocks/test-info/__button/test-info__button.css);
+/* Test-info */
+@import url('../blocks/test-info/__button/test-info__button.css');
+@import url('../blocks/test-info/__question/test-info__question.css');
+@import url('../blocks/test-info/__header/test-info__header.css');
+@import url('../blocks/test-info/__answer-list/test-info__answer-list.css');
+@import url('../blocks/test-info/__answer-item/test-info__answer-item.css');
