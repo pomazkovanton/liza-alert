@@ -1,10 +1,10 @@
 .page__col-right {
+  max-width: 424px;
+  flex-grow: 1;
 }
 
-@media screen and (min-width: 1224px) {
+@media screen and (max-width: 1224px) {
   .page__col-right {
-    max-width: 424px;
-    flex-grow: 1;
-    margin-left: 12px;
+    max-width: 100%;
   }
 }
