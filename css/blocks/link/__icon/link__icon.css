@@ -4,3 +4,10 @@
   flex-shrink: 0;
 }
 
+@media screen and (max-width: 768px) {
+  .link__icon {
+    width: 16px;
+    height: 16px;
+    padding-top: 2px;
+  }
+}
