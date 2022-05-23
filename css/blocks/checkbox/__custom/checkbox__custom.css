@@ -5,3 +5,11 @@
   margin-left: -30px;
   background-image: url(../../../../assets/images/empty.svg);
 }
+
+@media screen and (max-width: 768px) {
+  .checkbox__custom {
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+  }
+}

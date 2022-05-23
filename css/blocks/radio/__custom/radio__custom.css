@@ -5,3 +5,11 @@
   margin-left: -30px;
   background-image: url(../../../../assets/images/radio-empty.svg);
 }
+
+@media screen and (max-width: 768px) {
+  .radio__custom {
+    width: 16px;
+    height: 16px;
+    background-size: cover;
+  }
+}
