@@ -1,17 +1,13 @@
 .page__content {
+  display: flex;
+  max-width: 1320px;
+  margin: 0 auto;
+  gap: 24px;
 }
 
-@media screen and (min-width: 1224px) {
+@media screen and (max-width: 1224px) {
   .page__content {
-    display: flex;
-    padding: 0 60px;
-  }
-}
-
-@media screen and (min-width: 1440px) {
-  .page__content {
-    max-width: 1320px;
+    display: block;
     padding: 0;
-    margin: 0 auto;
   }
 }

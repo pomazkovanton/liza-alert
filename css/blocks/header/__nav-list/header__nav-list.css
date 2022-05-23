@@ -6,3 +6,10 @@
   gap: 42px;
   list-style: none;
 }
+
+@media screen and (max-width: 768px) {
+  .header__nav-list {
+    display: block;
+    margin-top: 32px;
+  }
+}

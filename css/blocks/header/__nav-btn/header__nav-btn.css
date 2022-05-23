@@ -1,0 +1,22 @@
+.header__nav-btn {
+  z-index: 1;
+  display: none;
+  width: 36px;
+  height: 20px;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  justify-self: end;
+  transition: opacity 0.6s linear;
+}
+
+.header__nav-btn:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 768px) {
+  .header__nav-btn {
+    display: block;
+  }
+}

@@ -10,10 +10,14 @@
   <body class="page">
     <header class="header">
       <div class="header__container">
-        <h1 class="title title_size_s">Учебная платформа</h1>
-        <nav>
+        <h1 class="title title_size_s header__title">Учебная платформа</h1>
+        <button class="header__nav-btn" type="button" aria-label="Открыть / Закрыть меню">
+          <span class="header__nav-ico-menu header__nav-ico-menu_show"></span>
+          <span class="header__nav-ico-cross"></span>
+        </button>
+        <nav class="header__nav">
           <ul class="header__nav-list">
-            <li>
+            <li class="header__nav-item">
               <a class="link" href="#">
                 <svg class="link__icon">
                   <use href="../assets/images/icons.svg#courses">
@@ -21,7 +25,7 @@
                 Курсы
               </a>
             </li>
-            <li>
+            <li class="header__nav-item">
               <a class="link" href="#">
                 <svg class="link__icon">
                   <use href="../assets/images/icons.svg#profile">
@@ -33,9 +37,7 @@
         </nav>
       </div>
     </header>
-
     <main class="page__main">
-
       <ul class="breadcrumb">
         <li class="breadcrumb__item">
           <a href="#" class="breadcrumb__link link">Курсы</a>
@@ -56,43 +58,39 @@
         </li>
         <li class="breadcrumb__item"><p class="breadcrumb__current-location text">Видео</p></li>
       </ul>
-
       <div class="page__content">
-
         <div class="page__col-left">
         <section class="card-container">
           <div class="card-container__header">
             <h2 class="title title_size_m">Видео</h2>
           </div>
           <article class="video">
-            <video class="video__mediaplayer" poster="../assets/images/video-poster.jpeg">
+            <video class="video__mediaplayer" src="../assets/sample-video.mp4" poster="../assets/images/video-poster.jpeg">
               <source src="https://www.youtube.com/watch?v=V8_wEZD160g" />
             </video>
-
-            <form class="video__controls">
+            <div class="video__controls">
               <button type="button" class="video__btn video__btn_type_play">
                 <svg class="button__icon">
-                  <use href="../assets/images/icons.svg#video-controls__play" />
+                  <use class="video__icon video__icon_type_play video__icon_show" href="../assets/images/icons.svg#video-controls__play" />
+                  <use class="video__icon video__icon_type_pause" href="../assets/images/icons.svg#pause" />
                 </svg>
               </button>
-
               <input type="range" class="video__slider video__slider_type_timeline" value="0" />
-
               <div class="video__sound-wrap">
                 <button class="video__btn video__btn_type_sound" type="button">
                   <svg class="button__icon">
-                    <use href="../assets/images/icons.svg#video-controls__sound" />
+                    <use class="video__icon video__icon_type_sound video__icon_show" href="../assets/images/icons.svg#video-controls__sound" />
+                    <use class="video__icon video__icon_type_sound-off" href="../assets/images/icons.svg#video-controls__muted" />
                   </svg>
                 </button>
-                <input type="range" class="video__slider video__slider_type_sound" value="70" />
+                <input class="video__slider video__slider_type_sound" type="range" min="0" max="100"  value="70" />
               </div>
-
               <button class="video__btn video__btn_type_fullscreen" type="button">
                 <svg class="button__icon">
                   <use href="../assets/images/icons.svg#video-controls__fullscreen" />
                 </svg>
               </button>
-            </form>
+            </div>
           </article>
         </section>
         <ul class="action-panel">
@@ -114,7 +112,7 @@
           </li>
         </ul>
         </div>
-        
+
         <div class="page__col-right">
           <nav class="nav-lessons card-container">
           <div class="card-container__header">
@@ -405,5 +403,7 @@
         </div>
       </div>
     </main>
+    <script src="../scripts/header-nav.js"></script>
+    <script src="../scripts/video.js"></script>
   </body>
 </html>

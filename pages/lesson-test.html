@@ -10,10 +10,14 @@
   <body class="page">
     <header class="header">
       <div class="header__container">
-        <h1 class="title title_size_s">Учебная платформа</h1>
-        <nav>
+        <h1 class="title title_size_s header__title">Учебная платформа</h1>
+        <button class="header__nav-btn" type="button" aria-label="Открыть / Закрыть меню">
+          <span class="header__nav-ico-menu header__nav-ico-menu_show"></span>
+          <span class="header__nav-ico-cross"></span>
+        </button>
+        <nav class="header__nav">
           <ul class="header__nav-list">
-            <li>
+            <li class="header__nav-item">
               <a class="link" href="#">
                 <svg class="link__icon">
                   <use href="../assets/images/icons.svg#courses">
@@ -21,7 +25,7 @@
                 Курсы
               </a>
             </li>
-            <li>
+            <li class="header__nav-item">
               <a class="link" href="#">
                 <svg class="link__icon">
                   <use href="../assets/images/icons.svg#profile">
@@ -33,7 +37,6 @@
         </nav>
       </div>
     </header>
-
     <main class="page__main">
       <ul class="breadcrumb">
         <li class="breadcrumb__item">
@@ -61,50 +64,50 @@
           <section class="card-container">
             <div class="card-container__header">
               <h2 class="title title_size_m">Тест</h2>
-              <a href="" class="test__link title_size_s">Посмотреть условия</a>
+              <a href="./lesson-test-about.html" class="link link_text_medium">Посмотреть условия</a>
             </div>
             <form>
-              <div class="test__block">
-                <h3 class="test__question title title_size_s">1. В каких случаях перспективно применение следовых кинологических расчётов?</h3>
+              <fieldset class = "test__block">
+                <legend class="test__question title title_size_s">1. В каких случаях перспективно применение следовых кинологических расчётов?</legend>
                 <div class="test__answers">
                   <label class="checkbox">
                     <input type="checkbox" name="check1" id="check1" class="checkbox__input" />
                     <span class="checkbox__custom"></span>
-                    <span class="checkbox__label title_size_s">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</span>
+                    <p class="text checkbox__label">Оказание помощи гражданам, оказавшимся в зонах бедствия или пропавшим в безлюдной местности</p>
                   </label>
                   <label class="checkbox">
                     <input type="checkbox" name="check1" id="check1" class="checkbox__input" />
                     <span class="checkbox__custom"></span>
-                    <span class="checkbox__label title_size_s">Обучение животного идти как по горячему, так и по остывшему следу</span>
+                    <p class="text checkbox__label">Обучение животного идти как по горячему, так и по остывшему следу</p>
                   </label>
                   <label class="checkbox">
                     <input type="checkbox" name="check1" id="check1" class="checkbox__input" />
                     <span class="checkbox__custom"></span>
-                    <span class="checkbox__label title_size_s">Поиск тел и их остатков с применением специально обученных собак</span>
+                    <p class="text checkbox__label">Поиск тел и их остатков с применением специально обученных собак</p>
                   </label>
                 </div>
-              </div>
+              </fieldset>
               <hr class="test__line" />
-              <div class="test__block">
-                <h4 class="test__question title title_size_s">2. С какого возраста следует начинать дрессировку по курсу ПСС?</h4>
+              <fieldset class = "test__block">
+                <legend class="test__question title title_size_s">2. С какого возраста следует начинать дрессировку по курсу ПСС?</legend>
                 <div class="test__answers">
                   <label class="radio">
                     <input type="radio" name="radio1" id="radio1" class="radio__input" />
                     <span class="radio__custom"></span>
-                    <span class="radio__label title_size_s">6 месяцев</span>
+                    <p class="text radio__label">6 месяцев</p>
                   </label>
                   <label class="radio">
                     <input type="radio" name="radio1" id="radio1" class="radio__input" />
                     <span class="radio__custom"></span>
-                    <span class="radio__label title_size_s">1–1,5 года</span>
+                    <p class="text radio__label">1–1,5 года</p>
                   </label>
                   <label class="radio">
                     <input type="radio" name="radio1" id="radio1" class="radio__input" />
                     <span class="radio__custom"></span>
-                    <span class="radio__label title_size_s">3 года</span>
+                    <p class="text radio__label">3 года</p>
                   </label>
                 </div>
-              </div>
+              </fieldset>
               <button type="submit" class="button button_state_disabled button__center">Показать результат</button>
             </form>
           </section>
@@ -417,5 +420,6 @@
         </aside>
       </div>
     </main>
+    <script src="../scripts/header-nav.js" type="text/javascript"></script>
   </body>
 </html>
