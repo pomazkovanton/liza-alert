@@ -122,6 +122,7 @@
 /* Breadcrumb */
 @import url('../blocks/breadcrumb/breadcrumb.css');
 @import url('../blocks/breadcrumb/__item/breadcrumb__item.css');
+@import url('../blocks/breadcrumb/__link/breadcrumb__link.css');
 @import url('../blocks/breadcrumb/__icon/breadcrumb__icon.css');
 @import url('../blocks/breadcrumb/__current-location/breadcrumb__current-location.css');
 

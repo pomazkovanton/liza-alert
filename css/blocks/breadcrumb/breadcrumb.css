@@ -1,8 +1,26 @@
 .breadcrumb {
   display: flex;
   max-width: 1320px;
-  padding: 24px 0 32px;
-  margin: 0;
-  margin: auto;
+  flex-wrap: wrap;
+  padding: 0;
+  padding: 20px 0 32px;
+  margin: 0 auto;
   list-style: none;
+}
+
+@media screen and (max-width: 1023px) {
+  .breadcrumb {
+    padding: 24px 0 32px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .breadcrumb {
+    padding: 24px 0 32px;
+  }
+}
+
+@media screen and (max-width: 429px) {
+  .breadcrumb {
+  }
 }
