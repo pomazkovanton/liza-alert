@@ -50,7 +50,6 @@
 @import url('../blocks/button/_type/button_type_primary.css');
 @import url('../blocks/button/_type/button_type_secondary.css');
 @import url('../blocks/button/_state/button_state_disabled.css');
-@import url(../blocks/button/__info-element/button__info-element.css);
 
 /* Checkbox */
 @import url(../blocks/checkbox/checkbox.css);
