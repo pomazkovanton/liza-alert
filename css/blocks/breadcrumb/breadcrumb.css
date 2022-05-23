@@ -1,19 +1,26 @@
 .breadcrumb {
   display: flex;
+  max-width: 1320px;
   flex-wrap: wrap;
-  padding: 12px 0 24px;
+  padding: 0;
+  padding: 20px 0 32px;
   margin: 0 auto;
   list-style: none;
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (max-width: 1023px) {
   .breadcrumb {
     padding: 24px 0 32px;
   }
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (max-width: 767px) {
   .breadcrumb {
-    max-width: 1320px;
+    padding: 24px 0 32px;
+  }
+}
+
+@media screen and (max-width: 429px) {
+  .breadcrumb {
   }
 }
