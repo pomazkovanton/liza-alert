@@ -8,3 +8,19 @@
   gap: 24px;
   list-style: none;
 }
+
+@media screen and (max-width: 768px) {
+  .action-panel {
+    width: auto;
+    justify-content: center;
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .action-panel .button {
+    max-width: 72px;
+    padding: 12px 0;
+    font-size: 0;
+  }
+}
