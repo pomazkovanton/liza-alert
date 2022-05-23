@@ -83,6 +83,7 @@
 @import url('../blocks/test/__question-block/test__question-block.css');
 @import url('../blocks/test/__line/test__line.css');
 @import url('../blocks/test/__list/test__list.css');
+@import url('../blocks/test/__button/test__button.css');
 
 /* Result */
 @import url('../blocks/result/result.css');
