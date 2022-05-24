@@ -128,6 +128,7 @@
 @import url('../blocks/about-test/__info/about-test__info.css');
 @import url('../blocks/about-test/__button/about-test__button.css');
 @import url('../blocks/about-test/__line/about-test__line.css');
+@import url('../blocks/about-test/__text/about-test__text.css');
 
 /* Test-info */
 @import url('../blocks/test-info/__button/test-info__button.css');

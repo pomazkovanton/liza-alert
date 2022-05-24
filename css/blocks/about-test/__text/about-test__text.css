@@ -1,0 +1,8 @@
+@media screen and (max-width: 430px) {
+  .about-test__text {
+    overflow: hidden;
+    max-width: 105px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
