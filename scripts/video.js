@@ -40,7 +40,7 @@ const updateProgress = () => {
 };
 
 const setProgress = () => {
-  video.currentTime = (progressBar.value * video.duration) / 100;
+  video.currentTime = (progressBar.value * video.duration) / 100 + '';
 };
 
 // Звук видео
@@ -82,6 +82,10 @@ const toggleFullscreen = () => {
   }
 };
 
+const updateVideo = () => {
+  video.currentTime = 0;
+};
+
 setVolume();
 updateProgress();
 
@@ -92,3 +96,4 @@ progressBar.addEventListener('change', setProgress);
 volumeBar.addEventListener('input', setVolume);
 muteBtn.addEventListener('click', muteVolume);
 fullscreenBtn.addEventListener('click', toggleFullscreen);
+video.addEventListener('ended', updateVideo);
