@@ -78,11 +78,8 @@
 /* Test */
 @import url('../blocks/test/__answers/test__answers.css');
 @import url('../blocks/test/__block/test__block.css');
-@import url('../blocks/test/__link/test__link.css');
 @import url('../blocks/test/__question/test__question.css');
-@import url('../blocks/test/__question-block/test__question-block.css');
 @import url('../blocks/test/__line/test__line.css');
-@import url('../blocks/test/__list/test__list.css');
 @import url('../blocks/test/__button/test__button.css');
 
 /* Result */
