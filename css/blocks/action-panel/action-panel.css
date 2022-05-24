@@ -22,5 +22,6 @@
     max-width: 72px;
     padding: 12px 0;
     font-size: 0;
+    gap: 0;
   }
 }
