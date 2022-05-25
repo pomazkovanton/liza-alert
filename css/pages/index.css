@@ -34,7 +34,6 @@
 @import url('../blocks/text/text.css');
 @import url('../blocks/text/_type/text_type_error.css');
 @import url('../blocks/text/_type/text_type_success.css');
-@import url('../blocks/text/_type/text_type_accent.css');
 
 /* Video */
 @import url('../blocks/video/video.css');
@@ -42,9 +41,7 @@
 @import url('../blocks/video/__controls/video__controls.css');
 @import url('../blocks/video/__sound-wrap/video__sound-wrap.css');
 @import url('../blocks/video/__btn/video__btn.css');
-@import url('../blocks/video/__btn/_type/video__btn_type_play.css');
 @import url('../blocks/video/__btn/_type/video__btn_type_sound.css');
-@import url('../blocks/video/__btn/_type/video__btn_type_fullscreen.css');
 @import url('../blocks/video/__slider/video__slider.css');
 @import url('../blocks/video/__slider/_type/video__slider_type_timeline.css');
 @import url('../blocks/video/__slider/_type/video__slider_type_sound.css');
@@ -98,6 +95,7 @@
 /* Link */
 @import url('../blocks/link/link.css');
 @import url('../blocks/link/_type/link_type_card-header.css');
+@import url('../blocks/link/_type/link_type_inner.css');
 @import url('../blocks/link/_active/link_active.css');
 @import url('../blocks/link/__icon/link__icon.css');
 @import url('../blocks/link/__icon/_color/link__icon_color_success.css');
@@ -124,7 +122,6 @@
 @import url('../blocks/breadcrumb/__current-location/breadcrumb__current-location.css');
 
 /* About-test */
-@import url('../blocks/about-test/about-test.css');
 @import url('../blocks/about-test/__info/about-test__info.css');
 @import url('../blocks/about-test/__button/about-test__button.css');
 @import url('../blocks/about-test/__line/about-test__line.css');
