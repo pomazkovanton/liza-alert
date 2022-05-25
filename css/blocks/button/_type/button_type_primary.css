@@ -1,7 +1,7 @@
 .button_type_primary {
   background-color: var(--color-bg-button-orange);
   color: var(--color-text-white);
-  transition: background-color 0.4s linear;
+  transition: background-color 0.1s linear;
 }
 
 .button_type_primary:hover,

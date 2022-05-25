@@ -2,7 +2,7 @@
   border: 1.2px solid var(--color-bg-button-gray);
   background-color: var(--color-bg-button-white);
   color: var(--color-text-orange);
-  transition: color 0.4s linear;
+  transition: box-shadow 0.1s linear, color 0.1s linear;
 }
 
 .button_type_secondary:hover,
