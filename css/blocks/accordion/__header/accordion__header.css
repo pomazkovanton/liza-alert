@@ -4,6 +4,11 @@
   padding-top: 32px;
   padding-right: 32px;
   cursor: pointer;
+  transition: opacity 0.4s linear;
+}
+
+.accordion__header:hover {
+  opacity: 0.6;
 }
 
 .accordion__header::-webkit-details-marker {
