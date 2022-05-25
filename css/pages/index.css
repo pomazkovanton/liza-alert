@@ -34,7 +34,6 @@
 @import url('../blocks/text/text.css');
 @import url('../blocks/text/_type/text_type_error.css');
 @import url('../blocks/text/_type/text_type_success.css');
-@import url('../blocks/text/_type/text_type_accent.css');
 
 /* Video */
 @import url('../blocks/video/video.css');
@@ -96,6 +95,7 @@
 /* Link */
 @import url('../blocks/link/link.css');
 @import url('../blocks/link/_type/link_type_card-header.css');
+@import url('../blocks/link/_type/link_type_inner.css');
 @import url('../blocks/link/_active/link_active.css');
 @import url('../blocks/link/__icon/link__icon.css');
 @import url('../blocks/link/__icon/_color/link__icon_color_success.css');
