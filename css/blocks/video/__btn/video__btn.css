@@ -1,0 +1,15 @@
+.video__btn {
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+  padding: 0;
+  border: none;
+  background-color: rgb(0 0 0 / 0%);
+  color: var(--color-text-white);
+  cursor: pointer;
+  transition: opacity 0.4s linear;
+}
+
+.video__btn:hover {
+  opacity: 0.8;
+}

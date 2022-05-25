@@ -1,0 +1,22 @@
+.test__block {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  border: 0;
+  margin-bottom: 32px;
+  row-gap: 16px;
+}
+
+.test__block:not(:first-child) {
+  margin-top: 32px;
+}
+
+@media screen and (max-width: 1224px) {
+  .test__block {
+    margin-bottom: 16px;
+  }
+
+  .test__block:not(:first-child) {
+    margin-top: 16px;
+  }
+}

@@ -1,0 +1,13 @@
+.page__content {
+  display: flex;
+  max-width: 1320px;
+  margin: 0 auto;
+  gap: 24px;
+}
+
+@media screen and (max-width: 1224px) {
+  .page__content {
+    display: block;
+    padding: 0;
+  }
+}

@@ -1,0 +1,9 @@
+.test-info__button {
+  margin: 32px auto 0;
+}
+
+@media screen and (max-width: 1224px) {
+  .test-info__button {
+    margin: 16px auto 0;
+  }
+}

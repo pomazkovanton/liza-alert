@@ -1,0 +1,6 @@
+.info-element {
+  display: flex;
+  align-items: flex-start;
+  color: var(--color-text-dark);
+  gap: 8px;
+}

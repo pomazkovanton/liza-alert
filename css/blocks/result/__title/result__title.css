@@ -1,0 +1,9 @@
+.result__title {
+  margin-bottom: 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .result__title {
+    margin-bottom: 12px;
+  }
+}

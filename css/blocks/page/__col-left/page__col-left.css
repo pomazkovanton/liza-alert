@@ -1,0 +1,9 @@
+.page__col-left {
+  flex-grow: 2;
+}
+
+@media screen and (max-width: 1224px) {
+  .page__col-left {
+    margin-bottom: 24px;
+  }
+}

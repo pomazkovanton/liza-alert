@@ -1,0 +1,4 @@
+.result_type_error {
+  border: 1.2px solid var(--color-text-border-warning);
+  background-color: var(--color-bg-result-warning);
+}

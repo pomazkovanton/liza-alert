@@ -1,0 +1,9 @@
+.result__text:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .result__text:not(:last-child) {
+    margin-bottom: 12px;
+  }
+}

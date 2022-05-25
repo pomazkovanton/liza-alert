@@ -1,0 +1,28 @@
+.breadcrumb__item {
+  display: flex;
+  margin-top: 4px;
+}
+
+@media screen and (max-width: 1199px) {
+  .breadcrumb__item {
+    max-width: 52vw;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .breadcrumb__item {
+    max-width: 40vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .breadcrumb__item {
+    max-width: 80vw;
+  }
+}
+
+@media screen and (max-width: 429px) {
+  .breadcrumb__item {
+    max-width: 66vw;
+  }
+}

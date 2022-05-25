@@ -1,0 +1,27 @@
+.video__controls {
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: grid;
+  height: auto;
+  padding: 0 32px 32px;
+  grid-gap: 32px;
+  grid-template-columns: 24px 7fr 2fr 24px;
+}
+
+@media screen and (max-width: 768px) {
+  .video__controls {
+    padding: 0 16px 16px;
+    grid-column-gap: 15px;
+    grid-template-columns: 24px 7fr 24px 24px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .video__controls {
+    padding: 0 8px 8px;
+    grid-column-gap: 10px;
+  }
+}

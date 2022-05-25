@@ -1,0 +1,6 @@
+.header__nav-ico-menu {
+  width: 36px;
+  height: 2px;
+  background-color: var(--color-text-dark);
+  box-shadow: 0 -6px var(--color-text-dark), 0 6px var(--color-text-dark);
+}

@@ -1,0 +1,12 @@
+.result {
+  padding: 32px 64px;
+  background-color: var(--color-bg-primary);
+  border-radius: 16px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .result {
+    padding: 16px;
+  }
+}

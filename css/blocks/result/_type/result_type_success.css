@@ -1,0 +1,4 @@
+.result_type_success {
+  border: 1.2px solid var(--color-text-border-success);
+  background-color: var(--color-bg-result-success);
+}

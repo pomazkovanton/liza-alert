@@ -1,0 +1,6 @@
+.checkbox {
+  display: block;
+  padding-left: 30px;
+  cursor: pointer;
+  font-family: var(--font);
+}

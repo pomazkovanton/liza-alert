@@ -1,0 +1,9 @@
+.test-info__question {
+  margin: 32px 0;
+}
+
+@media screen and (max-width: 1224px) {
+  .test-info__question {
+    margin: 16px 0;
+  }
+}

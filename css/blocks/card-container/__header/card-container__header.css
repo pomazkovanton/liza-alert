@@ -1,0 +1,12 @@
+.card-container__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 32px;
+}
+
+@media screen and (max-width: 768px) {
+  .card-container__header {
+    padding-bottom: 16px;
+  }
+}

@@ -1,0 +1,9 @@
+.link_type_inner {
+  display: inline-block;
+  font-weight: 700;
+}
+
+.link_type_inner:hover {
+  opacity: 1;
+  text-decoration: underline;
+}

@@ -1,0 +1,14 @@
+.header__container {
+  display: grid;
+  max-width: 1320px;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: auto;
+  grid-template-columns: 1fr 2fr;
+}
+
+@media screen and (max-width: 768px) {
+  .header__container {
+    grid-template-columns: 2fr 1fr;
+  }
+}
