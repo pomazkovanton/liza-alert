@@ -7,5 +7,6 @@
 
 .button_type_secondary:hover,
 .button_type_secondary:active {
+  box-shadow: 0 0 2px var(--color-border-card-container), 0 4px 8px var(--color-border-card-container);
   color: var(--color-button-hover);
 }
