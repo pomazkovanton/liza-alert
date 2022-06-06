@@ -8,7 +8,7 @@
 
 .radio__input:checked + .radio__custom,
 .radio__input:checked:focus + .radio__custom {
-  background-image: url(../../../../assets/images/radio-checked.svg);
+  background-image: url('../../../../assets/images/radio-checked.svg');
 }
 
 .radio__input:checked:focus + .radio__custom,
@@ -22,9 +22,9 @@
 }
 
 .radio__input:focus + .radio__custom {
-  background-image: url(../../../../assets/images/radio-empty-focused.svg);
+  background-image: url('../../../../assets/images/radio-empty-focused.svg');
 }
 
 .radio__input:hover:not(:checked):not(:focus) + .radio__custom {
-  background-image: url(../../../../assets/images/radio-empty-hover.svg);
+  background-image: url('../../../../assets/images/radio-empty-hover.svg');
 }

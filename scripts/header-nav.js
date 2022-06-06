@@ -1,9 +1,9 @@
 const menu = document.querySelector('.header__nav');
 
-//Кнопки
+// Кнопки
 const buttonMenu = document.querySelector('.header__nav-btn');
 
-//Иконки
+// Иконки
 const iconOpenMenu = buttonMenu.querySelector('.header__nav-ico-menu');
 const iconCloseMenu = buttonMenu.querySelector('.header__nav-ico-cross');
 

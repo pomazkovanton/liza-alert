@@ -1,27 +1,25 @@
 const video = document.querySelector('.video__mediaplayer');
 
-//Кнопки
+// Кнопки
 const playBtn = document.querySelector('.video__btn_type_play');
 const muteBtn = document.querySelector('.video__btn_type_sound');
 const fullscreenBtn = document.querySelector('.video__btn_type_fullscreen');
 
-//Иконки
+// Иконки
 const iconPlay = document.querySelector('.video__icon_type_play');
 const iconPause = document.querySelector('.video__icon_type_pause');
 const iconVolume = document.querySelector('.video__icon_type_sound');
 const iconMute = document.querySelector('.video__icon_type_sound-off');
 
-//Прогресс бары
+// Прогресс бары
 const progressBar = document.querySelector('.video__slider_type_timeline');
 const volumeBar = document.querySelector('.video__slider_type_sound');
 
 let volumeBarProgres = 0;
 
-//Переключение иконок
-const toggleIcon = (...icon) => {
-  icon.map(icon => {
-    icon.classList.toggle('video__icon_show');
-  });
+// Переключение иконок
+const toggleIcon = (...icons) => {
+  icons.map((icon) => icon.classList.toggle('video__icon_show'));
 };
 
 // Запуск / остановка видео
@@ -40,13 +38,13 @@ const updateProgress = () => {
 };
 
 const setProgress = () => {
-  video.currentTime = (progressBar.value * video.duration) / 100 + '';
+  video.currentTime = `${(progressBar.value * video.duration) / 100}`;
 };
 
 // Звук видео
 const setVolume = () => {
   video.volume = volumeBar.value / 100;
-  volumeBar.style.backgroundSize = volumeBar.value + '%';
+  volumeBar.style.backgroundSize = `${volumeBar.value}%`;
   if (video.volume === 0) {
     toggleIcon(iconVolume, iconMute);
   } else {
@@ -56,15 +54,15 @@ const setVolume = () => {
 };
 
 const muteVolume = () => {
-  if (video.volume == 0) {
+  if (video.volume === 0) {
     video.volume = volumeBarProgres / 100;
     volumeBar.value = volumeBarProgres;
-    volumeBar.style.backgroundSize = volumeBarProgres + '%';
+    volumeBar.style.backgroundSize = `${volumeBarProgres}%`;
   } else {
     video.volume = 0;
     volumeBarProgres = volumeBar.value;
     volumeBar.value = 0;
-    volumeBar.style.backgroundSize = 0 + '%';
+    volumeBar.style.backgroundSize = `${0}%`;
   }
   toggleIcon(iconVolume, iconMute);
 };
