@@ -3,6 +3,7 @@ module.exports = {
   plugins: ['stylelint-color-format', 'stylelint-declaration-block-no-ignored-properties'],
   rules: {
     "selector-class-pattern": null,
+    "no-descending-specificity": null,
     'declaration-empty-line-before': [
       'always',
       {

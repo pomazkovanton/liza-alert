@@ -3,6 +3,6 @@
 }
 
 .link_type_card-header:hover {
-  text-decoration: underline;
   opacity: 1;
+  text-decoration: underline;
 }
