@@ -12,7 +12,7 @@
       "prettier --write",
       "eslint --fix"
     ],
-    "./css/**/*.{css}": [
+    "./css/**/*.css": [
       "prettier --write",
       "stylelint --fix"
     ]
