@@ -18,10 +18,10 @@
     ]
   },
   "scripts": {
-    "lint:scss": "stylelint **/*.css --fix",
+    "lint:css": "stylelint ./css/**/*.css --fix",
     "lint:js": "eslint ./scripts/**/*.{ts,js} --fix",
     "format:js": "prettier --write ./scripts/**/*.{ts,js}",
-    "format:scss": "prettier --write **/*.css",
+    "format:css": "prettier --write ./css/**/*.css",
     "format:all": "prettier --write ."
   },
   "devDependencies": {
