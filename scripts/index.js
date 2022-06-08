@@ -1,7 +1,9 @@
+import initialCards from './initial-cards.js';
+
 const cardList = document.querySelector('.card-list');
 const cardTemplate = document.querySelector('#cardTemplate');
 
-const createCard = card => {
+const createCard = (card) => {
   const cardTemplateElement = cardTemplate.content.querySelector('.card-list__base').cloneNode(true);
   const cardImage = cardTemplateElement.querySelector('.card-list__image');
   const cardHeading = cardTemplateElement.querySelector('.card-list__heading');
@@ -25,10 +27,11 @@ const createCard = card => {
 
   if (card.button === 'Записаться') {
     cardButtonType.classList.add('card-list__button_initiate');
-    cardButtonType.addEventListener('click', evt => {
-      evt.target.closest('.card-list__button').classList.remove('card-list__button_initiate');
-      evt.target.classList.add('card-list__button_registration');
-      evt.target.closest('.card-list__button').textContent = 'Продолжить';
+    cardButtonType.addEventListener('click', (evt) => {
+      const event = evt;
+      event.target.closest('.card-list__button').classList.remove('card-list__button_initiate');
+      event.target.classList.add('card-list__button_registration');
+      event.target.closest('.card-list__button').textContent = 'Продолжить';
       cardTemplateElement.dataset.status = 'Вы записаны';
     });
   } else if (card.button === 'Пройден') {

@@ -19,7 +19,7 @@ let volumeBarProgres = 0;
 
 // Переключение иконок
 const toggleIcon = (...icons) => {
-  icons.map(icon => icon.classList.toggle('video__icon_show'));
+  icons.map((icon) => icon.classList.toggle('video__icon_show'));
 };
 
 // Запуск / остановка видео

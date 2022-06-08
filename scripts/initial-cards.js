@@ -80,3 +80,5 @@ const initialCards = [
     status: 'Пройден',
   },
 ];
+
+export default initialCards;
