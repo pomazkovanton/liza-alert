@@ -29,7 +29,7 @@
   right: 0;
   width: 24px;
   height: 24px;
-  background: url('../../../../assets/images/accordion-arrow.svg') no-repeat 50% 50% / 1em 1em;
+  background: url('../../../../../assets/images/accordion-arrow.svg') no-repeat 50% 50% / 1em 1em;
   color: transparent;
   content: '';
   transition: transform 0.5s;

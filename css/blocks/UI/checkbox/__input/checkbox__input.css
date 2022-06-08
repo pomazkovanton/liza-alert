@@ -8,7 +8,7 @@
 
 .checkbox__input:checked:focus + .checkbox__custom,
 .checkbox__input:checked + .checkbox__custom {
-  background-image: url('../../../../assets/images/checked.svg');
+  background-image: url('../../../../../assets/images/checked.svg');
 }
 
 .checkbox__input:focus + .checkbox__custom,
@@ -22,9 +22,9 @@
 }
 
 .checkbox__input:focus + .checkbox__custom {
-  background-image: url('../../../../assets/images/empty-focused.svg');
+  background-image: url('../../../../../assets/images/empty-focused.svg');
 }
 
 .checkbox__input:hover:not(:checked):not(:focus) + .checkbox__custom {
-  background-image: url('../../../../assets/images/empty-hover.svg');
+  background-image: url('../../../../../assets/images/empty-hover.svg');
 }
