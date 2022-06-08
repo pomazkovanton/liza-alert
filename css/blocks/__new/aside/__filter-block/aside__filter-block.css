@@ -1,0 +1,18 @@
+.aside__filter-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding-top: 32px;
+  border-top: 1px solid rgb(230 231 235);
+}
+
+.aside__filter-block:not(:last-child) {
+  padding-bottom: 33px;
+  border-bottom: 1px solid rgb(230 231 235);
+}
+
+@media (max-width: 1024px) {
+  .aside__filter-block:not(:last-child) {
+    border-bottom: none;
+  }
+}

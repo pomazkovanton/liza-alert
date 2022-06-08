@@ -1,0 +1,7 @@
+.sidebar-account__image {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  grid-column: 1 / 1;
+  grid-row: 1 / 2;
+}

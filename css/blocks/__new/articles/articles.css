@@ -1,0 +1,4 @@
+.articles {
+  max-width: 984px;
+  grid-area: content;
+}

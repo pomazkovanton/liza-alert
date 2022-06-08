@@ -2,8 +2,8 @@ module.exports = {
   extends: ['stylelint-config-standard', 'stylelint-config-prettier', 'stylelint-config-idiomatic-order'],
   plugins: ['stylelint-color-format', 'stylelint-declaration-block-no-ignored-properties'],
   rules: {
-    "selector-class-pattern": null,
-    "no-descending-specificity": null,
+    'selector-class-pattern': null,
+    'no-descending-specificity': null,
     'declaration-empty-line-before': [
       'always',
       {

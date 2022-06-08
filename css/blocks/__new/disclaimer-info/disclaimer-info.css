@@ -1,0 +1,12 @@
+.disclaimer-info {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+@media (max-width: 780px) {
+  .disclaimer-info:nth-child(n) {
+    margin-top: 32px;
+  }
+}

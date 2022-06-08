@@ -1,0 +1,8 @@
+.aside__checkbox-pseudo {
+  width: 20px;
+  height: 20px;
+  padding: 0 10px 0 0;
+  margin: 0;
+  background-image: url('../../../../../assets/images/checkbox-no-checked.svg');
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,17 @@
+.card-list {
+  display: grid;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto;
+  list-style-type: none;
+  row-gap: 24px;
+  text-decoration: none;
+}
+
+@media (max-width: 1024px) {
+  .card-list {
+    row-gap: 12px;
+  }
+}

@@ -2,13 +2,13 @@ name: GitHub Actions Linting
 on:
   push:
   pull_request:
-    branches: [ develop, master ]
+    branches: [develop, master]
 jobs:
   init:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-varsion: [ 16.x ]
+        node-varsion: [16.x]
     steps:
       - uses: actions/checkout@v3
       - name: Staring Node.js ${{ matrix.node-version }}

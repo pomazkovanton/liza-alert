@@ -1,0 +1,19 @@
+.aside__checkbox-options {
+  position: absolute;
+  overflow: hidden;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  margin: -1px;
+  clip: rect(0 0 0 0);
+  cursor: pointer;
+}
+
+.aside__checkbox-options:checked ~ .aside__checkbox-pseudo {
+  background-image: url('../../../../../assets/images/checkbox-checked.svg');
+}
+
+.aside__checkbox-options:checked ~ .aside__checkbox-label {
+  color: rgb(240 96 0);
+}

@@ -1,0 +1,8 @@
+.card-list__button_disable {
+  background-color: rgb(230 231 235);
+  color: rgb(147 151 163);
+}
+
+.card-list__button_disable:hover {
+  cursor: default;
+}

@@ -1,0 +1,31 @@
+.personal-info__item {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: rgb(147 151 163);
+  font-family: Golos, Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 133%;
+}
+
+.personal-info__item::after {
+  position: absolute;
+  right: 14px;
+  bottom: 0;
+  width: 20px;
+  height: 48px;
+  border: none;
+  background-color: transparent;
+  background-image: url('../../../../../assets/images/profile_edit-icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  content: '';
+  cursor: text;
+}
+
+.personal-info__item_photo::after {
+  background-image: url('../../../../../assets/images/profile_attach-icon.svg');
+}

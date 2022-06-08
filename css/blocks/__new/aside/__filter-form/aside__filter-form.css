@@ -1,0 +1,9 @@
+.aside__filter-form {
+  display: flex;
+  box-sizing: border-box;
+  flex-direction: column;
+  padding: 32px;
+  background-color: rgb(255 255 255);
+  border-radius: 16px;
+  box-shadow: 0 0 4px rgb(231 232 235 / 60%), 0 4px 16px rgb(231 232 235 / 60%);
+}

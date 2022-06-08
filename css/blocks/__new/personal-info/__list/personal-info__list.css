@@ -1,0 +1,7 @@
+.personal-info__list {
+  display: grid;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  row-gap: 32px;
+}

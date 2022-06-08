@@ -1,0 +1,10 @@
+.aside__accordion-item-toggler {
+  width: 10.54px;
+  height: 6.25px;
+  padding: 0;
+  margin: 0;
+  background-image: url('../../../../../assets/images/sidebar_close-option.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: contain;
+}

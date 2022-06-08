@@ -1,0 +1,7 @@
+.aside__reset-button {
+  display: none;
+  height: 28px;
+  background-color: transparent;
+  color: inherit;
+  cursor: pointer;
+}

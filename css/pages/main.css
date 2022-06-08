@@ -1,0 +1,72 @@
+@import url('../vendor/normalize.css');
+@import url('../vendor/fonts.css');
+@import url('../vendor/variables.css');
+
+@import url('../blocks/UI/ui.css');
+
+/* Common */
+
+/* Header */
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__container/header__container.css');
+@import url('../blocks/header/__nav-list/header__nav-list.css');
+@import url('../blocks/header/__nav-btn/header__nav-btn.css');
+@import url('../blocks/header/__nav-ico-cross/header__nav-ico-cross.css');
+@import url('../blocks/header/__nav-ico-cross/_show/header__nav-ico-cross_show.css');
+@import url('../blocks/header/__nav-ico-menu/header__nav-ico-menu.css');
+@import url('../blocks/header/__nav-ico-menu/_show/header__nav-ico-menu_show.css');
+@import url('../blocks/header/__nav/header__nav.css');
+@import url('../blocks/header/__nav/_opened/header__nav_opened.css');
+@import url('../blocks/header/__nav-item/header__nav-item.css');
+
+/* Video */
+@import url('../blocks/video/video.css');
+@import url('../blocks/video/__mediaplayer/video__mediaplayer.css');
+@import url('../blocks/video/__controls/video__controls.css');
+@import url('../blocks/video/__sound-wrap/video__sound-wrap.css');
+@import url('../blocks/video/__btn/video__btn.css');
+@import url('../blocks/video/__btn/_type/video__btn_type_sound.css');
+@import url('../blocks/video/__slider/video__slider.css');
+@import url('../blocks/video/__slider/_type/video__slider_type_timeline.css');
+@import url('../blocks/video/__slider/_type/video__slider_type_sound.css');
+@import url('../blocks/video/__icon/video__icon.css');
+@import url('../blocks/video/__icon/_show/video__icon_show.css');
+
+/* Breadcrumb */
+@import url('../blocks/breadcrumb/breadcrumb.css');
+@import url('../blocks/breadcrumb/__item/breadcrumb__item.css');
+@import url('../blocks/breadcrumb/__link/breadcrumb__link.css');
+@import url('../blocks/breadcrumb/__icon/breadcrumb__icon.css');
+@import url('../blocks/breadcrumb/__current-location/breadcrumb__current-location.css');
+
+/* Grid */
+@import url('../blocks/page/page.css');
+@import url('../blocks/page/__main/page__main.css');
+@import url('../blocks/page/__content/page__content.css');
+@import url('../blocks/page/__col-left/page__col-left.css');
+@import url('../blocks/page/__col-right/page__col-right.css');
+
+/* Test */
+@import url('../blocks/test/__answers/test__answers.css');
+@import url('../blocks/test/__block/test__block.css');
+@import url('../blocks/test/__question/test__question.css');
+@import url('../blocks/test/__line/test__line.css');
+@import url('../blocks/test/__button/test__button.css');
+
+/* Nav lessons */
+@import url('../blocks/nav-lessons/nav-lessons.css');
+@import url('../blocks/nav-lessons/__list/nav-lessons__list.css');
+@import url('../blocks/nav-lessons/__item/nav-lessons__item.css');
+
+/* About-test */
+@import url('../blocks/about-test/__info/about-test__info.css');
+@import url('../blocks/about-test/__button/about-test__button.css');
+@import url('../blocks/about-test/__line/about-test__line.css');
+@import url('../blocks/about-test/__text/about-test__text.css');
+
+/* Test-info */
+@import url('../blocks/test-info/__button/test-info__button.css');
+@import url('../blocks/test-info/__question/test-info__question.css');
+@import url('../blocks/test-info/__header/test-info__header.css');
+@import url('../blocks/test-info/__answer-list/test-info__answer-list.css');
+@import url('../blocks/test-info/__answer-item/test-info__answer-item.css');

@@ -1,0 +1,31 @@
+.sidebar-account {
+  display: grid;
+  min-width: 295px;
+  align-content: start;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: rgb(255 255 255);
+  border-radius: 16px;
+  box-shadow: 0 0 4px rgb(231 232 235 / 60%), 0 4px 16px rgb(231 232 235 / 60%);
+  grid-template-columns: 100%;
+  grid-template-rows: repeat(3, auto);
+  justify-items: center;
+  row-gap: 32px;
+}
+
+@media (max-width: 1024px) {
+  .sidebar-account {
+    margin-top: 24px;
+    margin-bottom: 24px;
+    grid-template-columns: repeat(2, auto);
+    grid-template-rows: minmax(min-content, 320px);
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar-account {
+    display: flex;
+    flex-direction: column;
+  }
+}

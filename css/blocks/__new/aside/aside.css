@@ -1,0 +1,14 @@
+.aside {
+  display: flex;
+  min-width: 295px;
+  box-sizing: border-box;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .aside {
+    width: 100%;
+    max-width: 100%;
+  }
+}

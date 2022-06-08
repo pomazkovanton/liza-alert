@@ -1,0 +1,27 @@
+.parameters {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0;
+  margin: 0;
+  grid-column: 1 / 1;
+  grid-row: 2 / 3;
+  list-style: none;
+}
+
+@media (max-width: 1024px) {
+  .parameters {
+    align-self: flex-start;
+    margin-top: 45px;
+    grid-column: 2 / 3;
+    grid-row: 1 / 1;
+    justify-self: start;
+  }
+}
+
+@media (max-width: 768px) {
+  .parameters {
+    align-self: center;
+    margin-top: 0;
+  }
+}

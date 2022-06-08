@@ -1,0 +1,4 @@
+.personal-info__item_photo::after {
+  background-image: url('../../../../../../assets/images/profile_attach-icon.svg');
+  cursor: default;
+}

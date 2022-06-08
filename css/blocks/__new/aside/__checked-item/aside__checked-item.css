@@ -1,0 +1,10 @@
+.aside__checked-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0 10px 10px 0;
+  background-color: rgb(230 231 235);
+  border-radius: 16px;
+}
