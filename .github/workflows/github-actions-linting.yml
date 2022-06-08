@@ -2,7 +2,7 @@ name: GitHub Actions Linting
 on:
   push:
   pull_request:
-    branches: [develop, master]
+    branches: [develop, master, merge-branch]
 jobs:
   init:
     runs-on: ubuntu-latest
