@@ -165,14 +165,18 @@
             <p class="card-list__info"></p>
           </div>
           <div class="card-list__timing">
-            <div class="card-list__timing-item">
-              <img class="card-list__icon" src="./assets/images/articles_book.svg" alt="книга" />
-              <p class="card-list__time" id="lessons"></p>
-            </div>
-            <div class="card-list__timing-item">
-              <img class="card-list__icon" src="./assets/images/articles_clock.svg" alt="часы" />
-              <p class="card-list__time" id="time"></p>
-            </div>
+            <p class="text info-element card-list__timing-item">
+              <svg class="info-element__icon">
+                <use href="../assets/images/icons.svg#lessons"></use>
+              </svg>
+              <span class="card-list__time" id="lessons"></span>
+            </p>
+            <p class="text info-element card-list__timing-item">
+              <svg class="info-element__icon">
+                <use href="../assets/images/icons.svg#duration"></use>
+              </svg>
+              <span class="card-list__time" id="time"></span>
+            </p>
           </div>
         </a>
         <a href="#" class="button card-list__button"></a>
