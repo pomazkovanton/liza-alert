@@ -9,14 +9,6 @@
   white-space: nowrap;
 }
 
-@media (max-width: 1024px) {
-  .sidebar-account__title {
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 117%;
-  }
-}
-
 @media (max-width: 320px) {
   .sidebar-account__title {
     width: 80%;
