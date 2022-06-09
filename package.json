@@ -22,6 +22,7 @@
     "lint:js": "eslint ./scripts/**/*.{ts,js} --fix",
     "format:js": "prettier --write ./scripts/**/*.{ts,js}",
     "format:css": "prettier --write ./css/**/*.css",
+    "format:html": "prettier --write **/*.html",
     "format:all": "prettier --write ."
   },
   "devDependencies": {
