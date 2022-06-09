@@ -2,6 +2,8 @@
 @import url('../vendor/fonts.css');
 @import url('../vendor/variables.css');
 
+@import url('../blocks/UI/ui.css');
+
 @import url('../blocks/__new/page/page.css');
 
 @import url('../blocks/__new/header/header.css');
@@ -25,7 +27,6 @@
 @import url('../blocks/__new/aside/__deselect-option/aside__deselect-option.css');
 @import url('../blocks/__new/aside/__filter-block-name/aside__filter-block-name.css');
 @import url('../blocks/__new/aside/__filter-block/aside__filter-block.css');
-@import url('../blocks/__new/aside/__filter-form/aside__filter-form.css');
 @import url('../blocks/__new/aside/__filter-item/aside__filter-item.css');
 @import url('../blocks/__new/aside/__filter-items/aside__filter-items.css');
 @import url('../blocks/__new/aside/__filter-list/aside__filter-list.css');

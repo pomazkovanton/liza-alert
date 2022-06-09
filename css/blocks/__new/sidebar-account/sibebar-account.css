@@ -3,11 +3,6 @@
   min-width: 295px;
   align-content: start;
   align-items: center;
-  padding-top: 32px;
-  padding-bottom: 32px;
-  background-color: rgb(255 255 255);
-  border-radius: 16px;
-  box-shadow: 0 0 4px rgb(231 232 235 / 60%), 0 4px 16px rgb(231 232 235 / 60%);
   grid-template-columns: 100%;
   grid-template-rows: repeat(3, auto);
   justify-items: center;
