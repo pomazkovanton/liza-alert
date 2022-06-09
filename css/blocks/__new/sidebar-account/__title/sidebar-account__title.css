@@ -2,14 +2,8 @@
   overflow: hidden;
   width: 100%;
   margin-top: 16px;
-  font-family: var(--font);
-  font-size: 18px;
-  font-style: normal;
-  font-weight: bold;
   grid-column: 1 / 1;
   grid-row: 1 / 2;
-  line-height: 133%;
-  margin-block-end: 0;
   text-align: center;
   text-overflow: ellipsis;
   white-space: nowrap;

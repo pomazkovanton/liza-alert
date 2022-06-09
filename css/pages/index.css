@@ -2,6 +2,8 @@
 @import url('../vendor/fonts.css');
 @import url('../vendor/variables.css');
 
+@import url('../blocks/UI/ui.css');
+
 @import url('../blocks/__new/page/page.css');
 
 @import url('../blocks/__new/header/header.css');
