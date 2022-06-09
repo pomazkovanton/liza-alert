@@ -6,16 +6,18 @@
 
 @import url('../blocks/__new/page/page.css');
 
-/* header */
-
-@import url('../blocks/__new/header/header.css');
-@import url('../blocks/__new/menu/menu.css');
-@import url('../blocks/__new/header/__link/header__link.css');
-@import url('../blocks/__new/menu/__list/menu__list.css');
-@import url('../blocks/__new/menu/__list-item/menu__list-item.css');
-@import url('../blocks/__new/menu/__link/menu__link.css');
-@import url('../blocks/__new/menu/__link/_active/menu__link_active.css');
-@import url('../blocks/__new/menu/__icon/menu__icon.css');
+/* Header */
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__container/header__container.css');
+@import url('../blocks/header/__nav-list/header__nav-list.css');
+@import url('../blocks/header/__nav-btn/header__nav-btn.css');
+@import url('../blocks/header/__nav-ico-cross/header__nav-ico-cross.css');
+@import url('../blocks/header/__nav-ico-cross/_show/header__nav-ico-cross_show.css');
+@import url('../blocks/header/__nav-ico-menu/header__nav-ico-menu.css');
+@import url('../blocks/header/__nav-ico-menu/_show/header__nav-ico-menu_show.css');
+@import url('../blocks/header/__nav/header__nav.css');
+@import url('../blocks/header/__nav/_opened/header__nav_opened.css');
+@import url('../blocks/header/__nav-item/header__nav-item.css');
 
 /* button */
 @import url('../blocks/__new/button/button.css');
