@@ -26,16 +26,18 @@ const createCard = (card) => {
   cardButtonType.setAttribute('value', `${card.button}`);
 
   if (card.button === 'Записаться') {
-    cardButtonType.classList.add('card-list__button_initiate');
+    cardButtonType.classList.add('button_type_secondary');
+    cardButtonType.classList.remove('button_type_primary');
     cardButtonType.addEventListener('click', (evt) => {
       const event = evt;
-      event.target.closest('.card-list__button').classList.remove('card-list__button_initiate');
-      event.target.classList.add('card-list__button_registration');
+      event.target.closest('.card-list__button').classList.remove('button_type_secondary');
+      event.target.classList.add('button_type_primary');
       event.target.closest('.card-list__button').textContent = 'Продолжить';
       cardTemplateElement.dataset.status = 'Вы записаны';
     });
   } else if (card.button === 'Пройден') {
-    cardButtonType.classList.add('card-list__button_disable');
+    cardButtonType.classList.add('button_state_disabled');
+    cardButtonType.classList.remove('button_type_primary');
     cardButtonType.setAttribute('disabled', 'disabled');
   }
 

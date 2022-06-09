@@ -19,6 +19,7 @@
 @import url('./button/_width/button_width_s.css');
 @import url('./button/_width/button_width_m.css');
 @import url('./button/_width/button_width_l.css');
+@import url('./button/_width/button_width_xl.css');
 @import url('./button/_type/button_type_primary.css');
 @import url('./button/_type/button_type_secondary.css');
 @import url('./button/_state/button_state_disabled.css');
