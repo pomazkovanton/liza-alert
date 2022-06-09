@@ -46,11 +46,51 @@
           <img class="sidebar-account__image" onerror=" src='../assets/images/default.jpg' " src="#" alt="Аватар пользователя" />
           <h2 class="sidebar-account__title">#</h2>
         </div>
-
-        <ul class="parameters">
-          <li class="parameters__list-item">
-            <img class="parameters__icon" src="../assets/images/logo_sidebar_professional.svg" alt="Иконка-статус пользователя" />
-            <h3 class="parameters__heading">Профессионал</h3>
+      <ul class="parameters">
+        <li class="parameters__list-item">
+          <p class="text info-element">
+            <svg class="info-element__icon">
+              <use href="../assets/images/icons.svg#rank"></use>
+            </svg>
+            Профессионал
+          </p>
+        </li>
+        <li class="parameters__list-item">
+          <p class="text info-element">
+            <svg class="info-element__icon">
+              <use href="../assets/images/icons.svg#role"></use>
+            </svg>
+            Картограф
+          </p>
+        </li>
+        <li class="parameters__list-item">
+          <p class="text info-element">
+            <svg class="info-element__icon">
+              <use href="../assets/images/icons.svg#courses"></use>
+            </svg>
+            Пройдено 2 курса
+          </p>
+        </li>
+      </ul>
+      <button id="account-leave-button" class="button sidebar-account__account-leave-button" type="button">
+        <img class="sidebar-account__account-leave-button-icon" src="../assets/images/sidebar_leave-account.svg" alt="Выйти из аккаунта" />Выйти из аккаунта
+      </button>
+    </aside>
+    <main class="personal-info">
+      <form class="personal-info__form" name="account-form">
+        <h2 class="personal-info__title">Личные данные</h2>
+        <ul class="personal-info__list">
+          <li class="personal-info__item">
+            <label for="form-name" class="personal-info__label-text"> ФИО </label>
+            <input type="text" name="form-name" id="form-name" class="personal-info__input" value="Иванова Анна Сидоровна" maxlength="30" required />
+          </li>
+          <li class="personal-info__item">
+            <label for="form-birth" class="personal-info__label-text"> Дата рождения </label>
+            <input type="text" name="form-birth" id="form-birth" class="personal-info__input personal-info__input_date" value="01-01-1991" required />
+          </li>
+          <li class="personal-info__item">
+            <label for="form-region" class="personal-info__label-text"> Географический регион </label>
+            <input type="text" name="form-region" id="form-region" class="personal-info__input" value="г. Санкт-Петербург" required />
           </li>
           <li class="parameters__list-item">
             <img class="parameters__icon" src="../assets/images/logo_sidebar_kartograf.svg" alt="Иконка-профессия пользователя" />
