@@ -2,6 +2,8 @@
 @import url('../vendor/fonts.css');
 @import url('../vendor/variables.css');
 
+@import url('../blocks/UI/ui.css');
+
 @import url('../blocks/__new/page/page.css');
 
 @import url('../blocks/__new/header/header.css');
@@ -23,7 +25,6 @@
 @import url('../blocks/__new/aside/__checked-item/aside__checked-item.css');
 @import url('../blocks/__new/aside/__checked-options-list/aside__checked-options-list.css');
 @import url('../blocks/__new/aside/__deselect-option/aside__deselect-option.css');
-@import url('../blocks/__new/aside/__filter-block-name/aside__filter-block-name.css');
 @import url('../blocks/__new/aside/__filter-block/aside__filter-block.css');
 @import url('../blocks/__new/aside/__filter-form/aside__filter-form.css');
 @import url('../blocks/__new/aside/__filter-item/aside__filter-item.css');
@@ -38,10 +39,6 @@
 @import url('../blocks/__new/aside/__reset-button/_active/aside__reset-button_active.css');
 @import url('../blocks/__new/aside/__form-head/aside__form-head.css');
 @import url('../blocks/__new/aside/__title/aside__title.css');
-@import url('../blocks/__new/aside/__accordion-item-toggler/aside__accordion-item-toggler.css');
-@import url('../blocks/__new/aside/__filter-block-head/aside__filter-block-head.css');
-@import url('../blocks/__new/aside/__filter-items/_open/aside__filter-items_open.css');
-@import url('../blocks/__new/aside/__filter-block/_active/aside__filter-block_active.css');
 @import url('../blocks/__new/aside/__deselect-button/aside__deselect-button.css');
 
 @import url('../blocks/__new/articles/articles.css');
