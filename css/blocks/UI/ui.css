@@ -66,3 +66,7 @@
 @import url('./info-element/_type/info-element_type_success.css');
 @import url('./info-element/_type/info-elemet_type_error.css');
 @import url('./info-element/__icon/info-element__icon.css');
+
+/* Tier */
+@import url('./tier/tier.css');
+@import url('./tier/__icon/tier__icon.css');

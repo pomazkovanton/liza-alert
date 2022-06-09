@@ -161,7 +161,7 @@
           <img src="#" alt="№" class="card-list__image" />
           <div class="card-list__description">
             <h2 class="card-list__heading"></h2>
-            <span class="card-list__tier"></span>
+            <span class="tier card-list__tier"></span>
             <p class="card-list__info"></p>
           </div>
           <div class="card-list__timing">
@@ -180,10 +180,12 @@
     </template>
     <template class="checked-item-template">
       <li class="aside__checked-item">
-        <div class="aside__deselect-option">
+        <div class="tier">
           <p class="aside__name-checked-option"></p>
           <button class="button aside__deselect-button" type="button">
-            <img src="./assets/images/sidebar_delete-option.svg" alt="удалить" class="aside__deselect-button-img" />
+            <svg class="tier__icon">
+              <use href="./assets/images/icons.svg#failed"></use>
+            </svg>
           </button>
         </div>
       </li>
