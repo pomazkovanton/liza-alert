@@ -21,7 +21,7 @@ function submitForm() {
     if (itemLocal.value.length !== 0) {
       itemLocal.textContent = item.value;
       profileName.textContent = formName.value;
-      profileAvatar.setAttribute('src', `${`../assets//images/${formAvatar.value}`}`);
+      profileAvatar.setAttribute('src', `${`../assets/images/${formAvatar.value}`}`);
     }
   });
 }

@@ -1,4 +1,3 @@
-const filterBlockHead = document.querySelectorAll('.aside__filter-block-head');
 const checkedItems = document.querySelectorAll('.aside__checkbox-options');
 const checkedList = document.querySelector('.aside__checked-options-list');
 const checkedGroupItems = document.querySelectorAll('.aside__checkbox-options_group');
@@ -32,13 +31,6 @@ function showCard() {
     }
   });
 }
-
-filterBlockHead.forEach((item) => {
-  item.addEventListener('click', (evt) => {
-    evt.stopPropagation();
-    item.parentNode.classList.toggle('aside__filter-block_active');
-  });
-});
 
 resetAllBtn.addEventListener('click', () => {
   checkedGroupItems.forEach((item) => {
