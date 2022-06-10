@@ -12,6 +12,7 @@
 @import url('./text/text.css');
 @import url('./text/_type/text_type_error.css');
 @import url('./text/_type/text_type_success.css');
+@import url('./text/_type/text_type_label.css');
 
 /* Button */
 @import url('./button/button.css');
