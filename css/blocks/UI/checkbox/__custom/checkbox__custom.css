@@ -3,7 +3,7 @@
   width: 20px;
   height: 20px;
   margin-left: -30px;
-  background-image: url('../../../../assets/images/empty.svg');
+  background-image: url('../../../../../assets/images/empty.svg');
 }
 
 @media screen and (max-width: 768px) {
