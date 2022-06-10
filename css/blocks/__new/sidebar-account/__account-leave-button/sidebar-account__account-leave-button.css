@@ -1,28 +1,6 @@
 .sidebar-account__account-leave-button {
-  display: flex;
-  width: 100%;
-  max-width: 247px;
-  height: 48px;
-  box-sizing: border-box;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  border: 1.2px solid rgb(230 231 235);
-  background-color: rgb(255 255 255);
-  border-radius: 16px;
-  color: rgb(255 102 0);
   grid-column: 1 / 1;
   grid-row: 3 / 4;
-  transition-duration: 0.3s;
-  transition-property: box-shadow;
-  transition-timing-function: linear;
-}
-
-.sidebar-account__account-leave-button:hover {
-  border: 1px rgb(255 102 0) solid;
-  box-shadow: 1px 1px 5px 1px rgb(230 231 235);
-  cursor: pointer;
-  transform: scale(1.008);
 }
 
 @media (max-width: 1024px) {

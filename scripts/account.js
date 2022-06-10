@@ -31,6 +31,8 @@ profileInputs.forEach((item) => {
   itemLocal.oninput = () => {
     const parentForm = itemLocal.closest('form');
     const profileSubmitBttn = parentForm.querySelector('.personal-info__button-submit');
+    profileSubmitBttn.classList.remove('button_state_disabled');
+    profileSubmitBttn.classList.add('button_type_primary');
     disableRemove(profileSubmitBttn);
   };
 });
@@ -38,5 +40,7 @@ profileInputs.forEach((item) => {
 profileSubmitForms.forEach((form) => form.addEventListener('submit', (evt) => {
   evt.preventDefault();
   submitForm();
+  form.lastElementChild.classList.add('button_state_disabled');
+  form.lastElementChild.classList.remove('button_type_primary');
   disableAdd(form.lastElementChild);
 }));

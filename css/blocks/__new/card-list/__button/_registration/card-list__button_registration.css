@@ -1,8 +1,0 @@
-.card-list__button_registration {
-  transform: 2s linear;
-}
-
-.card-list__button_registration:hover {
-  background-color: rgb(240 96 0);
-  transform: scale(1.008);
-}

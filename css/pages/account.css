@@ -19,9 +19,6 @@
 @import url('../blocks/header/__nav/_opened/header__nav_opened.css');
 @import url('../blocks/header/__nav-item/header__nav-item.css');
 
-/* button */
-@import url('../blocks/__new/button/button.css');
-
 /* title */
 
 @import url('../blocks/__new/page-title/page-title.css');
@@ -35,7 +32,6 @@
 @import url('../blocks/__new/sidebar-account/__image/sidebar-account__image.css');
 @import url('../blocks/__new/sidebar-account/__title/sidebar-account__title.css');
 @import url('../blocks/__new/sidebar-account/__account-leave-button/sidebar-account__account-leave-button.css');
-@import url('../blocks/__new/sidebar-account/__account-leave-button-icon/sidebar-account__account-leave-button-icon.css');
 
 @import url('../blocks/__new/parameters/parameters.css');
 @import url('../blocks/__new/parameters/__list-item/parameters__list-item.css');
