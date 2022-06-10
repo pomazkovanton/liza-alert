@@ -6,8 +6,6 @@
 
 @media (max-width: 1024px) {
   .sidebar {
-    padding-top: 12px;
-    padding-bottom: 12px;
     margin-top: 24px;
     margin-bottom: 24px;
     grid-template-columns: repeat(2, auto);
@@ -17,8 +15,6 @@
 
 @media (max-width: 1024px) {
   .sidebar {
-    padding-top: 12px;
-    padding-bottom: 12px;
     margin-top: 24px;
     margin-bottom: 24px;
     grid-template-columns: repeat(2, auto);
